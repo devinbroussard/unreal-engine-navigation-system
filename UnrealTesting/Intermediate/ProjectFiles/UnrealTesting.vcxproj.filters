@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealTesting.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A3BE2C12-FAFF-44F7-BE82-F28065108441}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealTesting.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealTestingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E482D637-4579-4E5F-BF50-77877062D8AD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealTesting">
+      <UniqueIdentifier>{1392F391-5D10-4AA2-A9E9-875B89182335}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealTesting\UnrealTesting.Build.cs">
+      <Filter>Source\UnrealTesting</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealTesting\UnrealTesting.cpp">
+      <Filter>Source\UnrealTesting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealTesting\UnrealTesting.h">
+      <Filter>Source\UnrealTesting</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealTesting\UnrealTestingGameModeBase.cpp">
+      <Filter>Source\UnrealTesting</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealTesting\UnrealTestingGameModeBase.h">
+      <Filter>Source\UnrealTesting</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

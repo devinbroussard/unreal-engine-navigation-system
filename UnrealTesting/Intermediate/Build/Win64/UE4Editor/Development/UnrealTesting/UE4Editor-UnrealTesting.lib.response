@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealTesting.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UnrealTestingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\UnrealTesting.cpp.obj"
+"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\UnrealTestingGameModeBase.cpp.obj"
+"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\UnrealTesting.init.gen.cpp.obj"
+"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\UnrealTestingGameModeBase.gen.cpp.obj"
+"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\Default.rc2.res"
+/OUT:"C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\UE4Editor-UnrealTesting.lib"
