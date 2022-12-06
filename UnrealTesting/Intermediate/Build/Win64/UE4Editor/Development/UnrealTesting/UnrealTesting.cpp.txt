@@ -1,2 +1,0 @@
-C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\UnrealTesting\Definitions.UnrealTesting.h
-C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Source\UnrealTesting\UnrealTesting.h
