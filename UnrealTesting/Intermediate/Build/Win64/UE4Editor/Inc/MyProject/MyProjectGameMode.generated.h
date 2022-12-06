@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT_MyProjectGameMode_generated_h
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_SPARSE_DATA
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_SPARSE_DATA
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyProjectGameMode(); \
 	friend struct Z_Construct_UClass_AMyProjectGameMode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AMyProjectGameMode)
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyProjectGameMode(); \
 	friend struct Z_Construct_UClass_AMyProjectGameMode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AMyProjectGameMode)
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	MYPROJECT_API AMyProjectGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyProjectGameMode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	MYPROJECT_API AMyProjectGameMode(AMyProjectGameMode&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyProjectGameMode)
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define MyProject_Source_MyProject_MyProjectGameMode_h_9_PROLOG
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY_LEGACY \
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_9_PROLOG
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_SPARSE_DATA \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_SPARSE_DATA \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY \
+#define UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_SPARSE_DATA \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_SPARSE_DATA \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	UnrealTesting_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYPROJECT_API UClass* StaticClass<class AMyProjectGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Source_MyProject_MyProjectGameMode_h
+#define CURRENT_FILE_ID UnrealTesting_Source_MyProject_MyProjectGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
