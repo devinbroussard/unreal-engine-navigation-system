@@ -1,25 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\s218014\source\repos\unreal-engine-testing).
-  Creating makefile for MyProjectEditor (config setting changed)
   Parsing headers for MyProjectEditor
     Running UnrealHeaderTool "C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\MyProject.uproject" "C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\s218014\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for MyProjectEditor in 6.2989426 seconds
+  Reflection code generated for MyProjectEditor in 5.4220442 seconds
   Building MyProjectEditor...
   Using Visual Studio 2022 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 11 actions with 8 processes...
-    [1/11] Default.rc2
-    [2/11] SharedPCH.Engine.ShadowErrors.cpp
-    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
-    [3/11] MyProject.cpp
-    [4/11] MyProject.init.gen.cpp
-    [5/11] MyProjectGameMode.cpp
-    [6/11] MyProjectGameMode.gen.cpp
-    [7/11] MyProjectCharacter.gen.cpp
-    [8/11] MyProjectCharacter.cpp
-    [9/11] UE4Editor-MyProject.lib
+  Building 6 actions with 8 processes...
+    [1/6] MyProject.init.gen.cpp
+    [2/6] Compass_HUD.cpp
+    [3/6] Compass_HUD.gen.cpp
+    [4/6] UE4Editor-MyProject.lib
        Creating library C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.lib and object C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.exp
-    [10/11] UE4Editor-MyProject.dll
+    [5/6] UE4Editor-MyProject.dll
        Creating library C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.lib and object C:\Users\s218014\source\repos\unreal-engine-testing\UnrealTesting\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.exp
-    [11/11] MyProjectEditor.target
-  Total time in Parallel executor: 36.58 seconds
-  Total execution time: 46.50 seconds
+    [6/6] MyProjectEditor.target
+  Total time in Parallel executor: 4.87 seconds
+  Total execution time: 11.43 seconds

@@ -54,4 +54,14 @@
       <Filter>Source\MyProject</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MyProject\Compass_HUD.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MyProject\Compass_HUD.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
