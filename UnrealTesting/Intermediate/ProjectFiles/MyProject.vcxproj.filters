@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8C1D9336-D442-458C-BA90-B45033D6B6CD}</UniqueIdentifier>
+      <UniqueIdentifier>{681447DB-E59D-433F-9989-41A529CB9D5B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4BE5D194-9758-4808-8E4C-9B1F6440B09F}</UniqueIdentifier>
+      <UniqueIdentifier>{10368AFB-2171-46AB-93F8-39F886D538EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{6F74D49C-BB8C-4C19-8653-51997D914A7C}</UniqueIdentifier>
+      <UniqueIdentifier>{EAA54994-CDCA-430E-B1B4-1F4F2F1B12CE}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Compass_HUD.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Compass_HUD.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">
       <Filter>Source\MyProject</Filter>
     </None>
@@ -51,16 +57,6 @@
       <Filter>Source\MyProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject\MyProjectGameMode.h">
-      <Filter>Source\MyProject</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\MyProject\Compass_HUD.cpp">
-      <Filter>Source\MyProject</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\MyProject\Compass_HUD.h">
       <Filter>Source\MyProject</Filter>
     </ClInclude>
   </ItemGroup>

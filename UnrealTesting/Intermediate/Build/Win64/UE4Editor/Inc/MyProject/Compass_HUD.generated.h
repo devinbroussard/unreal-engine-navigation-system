@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT_Compass_HUD_generated_h
 
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_SPARSE_DATA
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_RPC_WRAPPERS
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_INCLASS_NO_PURE_DECLS \
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_SPARSE_DATA
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_RPC_WRAPPERS
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCompass_HUD(); \
 	friend struct Z_Construct_UClass_UCompass_HUD_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UCompass_HUD)
 
 
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_INCLASS \
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_INCLASS \
 private: \
 	static void StaticRegisterNativesUCompass_HUD(); \
 	friend struct Z_Construct_UClass_UCompass_HUD_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UCompass_HUD)
 
 
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_STANDARD_CONSTRUCTORS \
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCompass_HUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCompass_HUD) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_ENHANCED_CONSTRUCTORS \
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCompass_HUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCompass_HUD)
 
 
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_PRIVATE_PROPERTY_OFFSET
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_13_PROLOG
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_GENERATED_BODY_LEGACY \
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_PRIVATE_PROPERTY_OFFSET
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_16_PROLOG
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_PRIVATE_PROPERTY_OFFSET \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_SPARSE_DATA \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_RPC_WRAPPERS \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_INCLASS \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_STANDARD_CONSTRUCTORS \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_PRIVATE_PROPERTY_OFFSET \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_SPARSE_DATA \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_RPC_WRAPPERS \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_INCLASS \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealTesting_Source_MyProject_Compass_HUD_h_27_GENERATED_BODY \
+#define UnrealTesting_Source_MyProject_Compass_HUD_h_37_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_PRIVATE_PROPERTY_OFFSET \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_SPARSE_DATA \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_INCLASS_NO_PURE_DECLS \
-	UnrealTesting_Source_MyProject_Compass_HUD_h_27_ENHANCED_CONSTRUCTORS \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_PRIVATE_PROPERTY_OFFSET \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_SPARSE_DATA \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_INCLASS_NO_PURE_DECLS \
+	UnrealTesting_Source_MyProject_Compass_HUD_h_37_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

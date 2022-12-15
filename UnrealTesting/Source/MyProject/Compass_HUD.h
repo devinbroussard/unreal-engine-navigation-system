@@ -4,8 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include "Components/Image.h"
 #include "Compass_HUD.generated.h"
+
+class UImage;
+class UCanvasPanelSlot;
+class UCameraComponent;
 
 /**
  * Compass blueprint.
@@ -15,14 +18,25 @@ class MYPROJECT_API UCompass_HUD : public UUserWidget
 {
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<UImage*> markers = TArray<UImage*>();
+	TArray<UImage*> g_Markers = TArray<UImage*>();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UImage* needle;
+	UImage* g_Needle = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UImage* points;
+	UImage* g_Points = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UCameraComponent* g_FollowCamera = nullptr;
+
+	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
+
+	void SetPointsDirection();
 
 private:
 	GENERATED_BODY()
+
+	UCanvasPanelSlot* GetPointsAsCanvasSlot();
+
+	UCanvasPanelSlot* m_pointsAsCanvasSlot = nullptr;
 };
