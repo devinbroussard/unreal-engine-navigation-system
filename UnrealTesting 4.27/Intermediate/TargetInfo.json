@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyProject",
+			"Path": "C:\\Users\\s218014\\Desktop\\Dev\\unreal-engine-navigation-ui-plugin\\UnrealTesting 4.27\\Source\\MyProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyProjectEditor",
+			"Path": "C:\\Users\\s218014\\Desktop\\Dev\\unreal-engine-navigation-ui-plugin\\UnrealTesting 4.27\\Source\\MyProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
