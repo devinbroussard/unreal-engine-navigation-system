@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeCompass_HUD() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_MyProject();
 	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UCanvasPanelSlot_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void UCompass_HUD::StaticRegisterNativesUCompass_HUD()
@@ -92,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeCompass_HUD() {}
 		{ "ModuleRelativePath", "Compass_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points = { "g_Points", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_Points), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points = { "g_Points", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_Points), Z_Construct_UClass_UCanvasPanelSlot_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_FollowCamera_MetaData[] = {
 		{ "Category", "Compass_HUD" },
@@ -135,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeCompass_HUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCompass_HUD, 2630756337);
+	IMPLEMENT_CLASS(UCompass_HUD, 1058107479);
 	template<> MYPROJECT_API UClass* StaticClass<UCompass_HUD>()
 	{
 		return UCompass_HUD::StaticClass();

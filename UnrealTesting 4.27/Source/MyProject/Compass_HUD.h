@@ -16,7 +16,10 @@ class UCameraComponent;
 UCLASS(Blueprintable)
 class MYPROJECT_API UCompass_HUD : public UUserWidget
 {
+	GENERATED_BODY()
+
 public:
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UImage*> g_Markers = TArray<UImage*>();
 
@@ -24,17 +27,18 @@ public:
 	UImage* g_Needle = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UImage* g_Points = nullptr;
+	UCanvasPanelSlot* g_Points = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UCameraComponent* g_FollowCamera = nullptr;
+
+	void NativeOnInitialized() override;
 
 	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
 
 	void SetPointsDirection();
 
 private:
-	GENERATED_BODY()
 
 	UCanvasPanelSlot* GetPointsAsCanvasSlot();
 
