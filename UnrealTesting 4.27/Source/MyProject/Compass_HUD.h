@@ -9,6 +9,7 @@
 class UImage;
 class UCanvasPanelSlot;
 class UCameraComponent;
+class Waypoint;
 
 /**
  * Compass blueprint.
@@ -19,9 +20,11 @@ class MYPROJECT_API UCompass_HUD : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UImage* g_OriginalMarker;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<UImage*> g_Markers = TArray<UImage*>();
+	TArray<UImage*> g_AssignedMarkers = TArray<UImage*>();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UImage* g_Needle = nullptr;
@@ -38,9 +41,16 @@ public:
 
 	void SetPointsDirection();
 
+	void RefreshMarkerPositions();
+	//void RefreshMarkerPosition(Waypoint waypoint);
+
+	//void setWaypoints(TArray<Waypoint>* waypoints);
+
 private:
 
 	UCanvasPanelSlot* GetPointsAsCanvasSlot();
 
 	UCanvasPanelSlot* m_pointsAsCanvasSlot = nullptr;
+
+	/*TArray<Waypoint>* m_waypoints;*/
 };
