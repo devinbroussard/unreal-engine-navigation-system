@@ -7,13 +7,21 @@
 #include "Navigation_HUD.generated.h"
 
 class UCompass_HUD;
+class UCameraComponent;
 struct FTransform;
 
-//struct Waypoint
-//{
-//	FTransform Transform;
-//	FColor MarkerColor;
-//};
+USTRUCT(BlueprintType)
+struct FWaypoint
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FTransform Transform;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FColor MarkerColor;
+};
 
 /**
  * A wrapper widget for the compass, waypoints, and minimap widgets.
@@ -33,9 +41,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool isMinimapEnabled = true;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//TArray<Waypoint> g_Waypoints = TArray<Waypoint>();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UCameraComponent* g_FollowCamera = nullptr;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FWaypoint> g_Waypoints = TArray<FWaypoint>();
+
+	UFUNCTION(BlueprintCallable)
 	void setCompassWidget(UCompass_HUD* compassWidget);
 
 private:

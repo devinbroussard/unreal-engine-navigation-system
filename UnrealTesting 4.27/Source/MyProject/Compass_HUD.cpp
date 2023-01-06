@@ -4,7 +4,6 @@
 #include "Components/CanvasPanelSlot.h"
 #include "Components/Image.h"
 #include "Camera/CameraComponent.h"
-#include "Navigation_HUD.h"
 
 void UCompass_HUD::NativeOnInitialized()
 {
@@ -39,20 +38,19 @@ void UCompass_HUD::SetPointsDirection()
 	}
 }
 
-//void UCompass_HUD::RefreshMarkerPositions()
-//{
-//	for(int i = 0; i < m_waypoints->Num(); i++)
-//	{
-//		RefreshMarkerPosition((*m_waypoints)[i]);
-//	}
-//}
-//
-//void UCompass_HUD::RefreshMarkerPosition(Waypoint waypoint)
-//{
-//}
-//
-//void UCompass_HUD::setWaypoints(TArray<Waypoint>* waypoints)
-//{
-//	m_waypoints = waypoints;
-//	RefreshMarkerPosition();
-//}
+void UCompass_HUD::RefreshMarkerPositions()
+{
+	for(int i = 0; i < m_waypoints->Num(); i++)
+	{
+		RefreshMarkerPosition((*m_waypoints)[i]);
+	}
+}
+
+void UCompass_HUD::RefreshMarkerPosition(FWaypoint waypoint)
+{
+}
+
+void UCompass_HUD::setWaypoints(TArray<FWaypoint>* waypoints)
+{
+	m_waypoints = waypoints;
+}

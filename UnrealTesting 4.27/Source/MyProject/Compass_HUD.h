@@ -4,12 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "Navigation_HUD.h"
 #include "Compass_HUD.generated.h"
 
 class UImage;
 class UCanvasPanelSlot;
 class UCameraComponent;
-class Waypoint;
 
 /**
  * Compass blueprint.
@@ -42,15 +42,14 @@ public:
 	void SetPointsDirection();
 
 	void RefreshMarkerPositions();
-	//void RefreshMarkerPosition(Waypoint waypoint);
 
-	//void setWaypoints(TArray<Waypoint>* waypoints);
+	void RefreshMarkerPosition(FWaypoint waypoint);
+
+	void setWaypoints(TArray<FWaypoint>* waypoints);
 
 private:
 
-	UCanvasPanelSlot* GetPointsAsCanvasSlot();
-
 	UCanvasPanelSlot* m_pointsAsCanvasSlot = nullptr;
 
-	/*TArray<Waypoint>* m_waypoints;*/
+	TArray<FWaypoint>* m_waypoints;
 };

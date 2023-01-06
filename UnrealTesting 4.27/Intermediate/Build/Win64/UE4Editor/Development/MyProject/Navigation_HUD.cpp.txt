@@ -100,5 +100,7 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\Navigation_HUD.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Source\MyProject\Compass_HUD.h
 C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\Compass_HUD.generated.h

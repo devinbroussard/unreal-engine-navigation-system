@@ -99,6 +99,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Source\MyProject\Navigation_HUD.h
+C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\Navigation_HUD.generated.h
 C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\Compass_HUD.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/CanvasPanelSlot.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SConstraintCanvas.h
@@ -112,5 +114,3 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Image.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Source\MyProject\Navigation_HUD.h
-C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\Navigation_HUD.generated.h
