@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeNavigation_HUD() {}
 	MYPROJECT_API UClass* Z_Construct_UClass_UNavigation_HUD_NoRegister();
 	MYPROJECT_API UClass* Z_Construct_UClass_UNavigation_HUD();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
-	MYPROJECT_API UClass* Z_Construct_UClass_UCompass_HUD_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	MYPROJECT_API UClass* Z_Construct_UClass_UCompass_HUD_NoRegister();
 // End Cross Module References
 class UScriptStruct* FWaypoint::StaticStruct()
 {
@@ -119,61 +119,8 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FWaypoint_Hash() { return 1668294726U; }
-	DEFINE_FUNCTION(UNavigation_HUD::execsetCompassWidget)
-	{
-		P_GET_OBJECT(UCompass_HUD,Z_Param_compassWidget);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->setCompassWidget(Z_Param_compassWidget);
-		P_NATIVE_END;
-	}
 	void UNavigation_HUD::StaticRegisterNativesUNavigation_HUD()
 	{
-		UClass* Class = UNavigation_HUD::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "setCompassWidget", &UNavigation_HUD::execsetCompassWidget },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics
-	{
-		struct Navigation_HUD_eventsetCompassWidget_Parms
-		{
-			UCompass_HUD* compassWidget;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_compassWidget_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_compassWidget;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::NewProp_compassWidget_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::NewProp_compassWidget = { "compassWidget", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Navigation_HUD_eventsetCompassWidget_Parms, compassWidget), Z_Construct_UClass_UCompass_HUD_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::NewProp_compassWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::NewProp_compassWidget_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::NewProp_compassWidget,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Navigation_HUD.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNavigation_HUD, nullptr, "setCompassWidget", nullptr, nullptr, sizeof(Navigation_HUD_eventsetCompassWidget_Parms), Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UNavigation_HUD_setCompassWidget()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UNavigation_HUD_setCompassWidget_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UNavigation_HUD_NoRegister()
 	{
@@ -182,7 +129,6 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 	struct Z_Construct_UClass_UNavigation_HUD_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -210,6 +156,10 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_Waypoints_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_g_Waypoints;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_CompassWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_CompassWidget;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -217,9 +167,6 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 	UObject* (*const Z_Construct_UClass_UNavigation_HUD_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UUserWidget,
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProject,
-	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_UNavigation_HUD_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UNavigation_HUD_setCompassWidget, "setCompassWidget" }, // 2184575455
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::Class_MetaDataParams[] = {
@@ -278,6 +225,14 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints = { "g_Waypoints", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, g_Waypoints), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget_MetaData[] = {
+		{ "Category", "Navigation_HUD" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Navigation_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget = { "g_CompassWidget", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, g_CompassWidget), Z_Construct_UClass_UCompass_HUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UNavigation_HUD_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled,
@@ -285,6 +240,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_FollowCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UNavigation_HUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UNavigation_HUD>::IsAbstract,
@@ -294,11 +250,11 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_UNavigation_HUD_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::PropPointers),
 		0,
 		0x00B010A0u,
@@ -313,7 +269,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UNavigation_HUD, 519666240);
+	IMPLEMENT_CLASS(UNavigation_HUD, 1047798680);
 	template<> MYPROJECT_API UClass* StaticClass<UNavigation_HUD>()
 	{
 		return UNavigation_HUD::StaticClass();

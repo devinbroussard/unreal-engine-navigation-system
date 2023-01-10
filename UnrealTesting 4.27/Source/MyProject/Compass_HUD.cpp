@@ -4,6 +4,10 @@
 #include "Components/CanvasPanelSlot.h"
 #include "Components/Image.h"
 #include "Camera/CameraComponent.h"
+#include "Math/Vector.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Math/Rotator.h"
+#include "Blueprint/WidgetTree.h"
 
 void UCompass_HUD::NativeOnInitialized()
 {
@@ -25,6 +29,7 @@ void UCompass_HUD::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 	}
 
 	SetPointsDirection();
+	CreateMarkers();
 }
 
 void UCompass_HUD::SetPointsDirection()
@@ -38,19 +43,40 @@ void UCompass_HUD::SetPointsDirection()
 	}
 }
 
-void UCompass_HUD::RefreshMarkerPositions()
+void UCompass_HUD::CreateMarkers()
 {
-	for(int i = 0; i < m_waypoints->Num(); i++)
+	for(int i = 0; i < g_Waypoints.Num(); i++)
 	{
-		RefreshMarkerPosition((*m_waypoints)[i]);
+		CreateMarker(g_Waypoints[i]);
 	}
 }
 
-void UCompass_HUD::RefreshMarkerPosition(FWaypoint waypoint)
+void UCompass_HUD::CreateMarker(FWaypoint waypoint)
 {
+	UCanvasPanelSlot* newMarker = DuplicateObject(g_OriginalMarker, this);
+
+	SetMarkerPosition(waypoint, newMarker);
+	SetMarkerColor(waypoint, newMarker);
+
+
 }
 
-void UCompass_HUD::setWaypoints(TArray<FWaypoint>* waypoints)
+void UCompass_HUD::SetMarkerPosition(FWaypoint waypoint, UCanvasPanelSlot* marker)
 {
-	m_waypoints = waypoints;
+	FVector cameraPosition = g_FollowCamera->GetComponentTransform().GetLocation();
+	FVector waypointPosition = waypoint.Transform.GetLocation();
+	FVector cameraToWaypointRotation =
+		UKismetMathLibrary::FindLookAtRotation(waypointPosition, cameraPosition).Vector().GetSafeNormal();
+
+	FVector cameraRightVector = g_FollowCamera->GetComponentTransform().GetRotation().GetRightVector();
+	FVector cameraForwardVector = g_FollowCamera->GetComponentTransform().GetRotation().GetForwardVector();
+
+	float x = FVector::DotProduct(cameraRightVector, cameraToWaypointRotation);
+	float y = FVector::DotProduct(cameraForwardVector, cameraToWaypointRotation);
+
+	float markerXPosition = (x / y) * 700;
+	marker->SetPosition({ markerXPosition, marker->GetPosition().Y });
 }
+
+void UCompass_HUD::SetMarkerColor(FWaypoint waypoint, UCanvasPanelSlot* marker)
+{}

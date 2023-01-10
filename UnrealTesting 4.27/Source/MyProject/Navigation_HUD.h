@@ -47,9 +47,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FWaypoint> g_Waypoints = TArray<FWaypoint>();
 
-	UFUNCTION(BlueprintCallable)
-	void setCompassWidget(UCompass_HUD* compassWidget);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UCompass_HUD* g_CompassWidget = nullptr;
+
+	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
 
 private:
-	UCompass_HUD* m_compassWidget = nullptr;
+	void initWidgets();
+
+	void setWidgetWaypoints();
 };

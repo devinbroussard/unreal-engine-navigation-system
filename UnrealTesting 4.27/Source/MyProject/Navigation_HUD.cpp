@@ -4,10 +4,23 @@
 #include "Math/TransformNonVectorized.h"
 #include "Camera/CameraComponent.h"
 #include "Compass_HUD.h"
+#include "Math/TransformNonVectorized.h"
 
-
-
-void UNavigation_HUD::setCompassWidget(UCompass_HUD* compassWidget)
+void UNavigation_HUD::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 {
-	m_compassWidget = compassWidget;
+	UUserWidget::NativeTick(MyGeometry, InDeltaTime);
+
+	setWidgetWaypoints();
+}
+
+void UNavigation_HUD::initWidgets()
+{
+}
+
+void UNavigation_HUD::setWidgetWaypoints()
+{
+	if (isCompassEnabled)
+	{
+		g_CompassWidget->g_Waypoints = g_Waypoints;
+	}
 }

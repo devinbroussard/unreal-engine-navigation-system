@@ -21,7 +21,10 @@ class MYPROJECT_API UCompass_HUD : public UUserWidget
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UImage* g_OriginalMarker;
+	UCanvasPanelSlot* g_OriginalMarker;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FWaypoint> g_Waypoints;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UImage*> g_AssignedMarkers = TArray<UImage*>();
@@ -41,15 +44,11 @@ public:
 
 	void SetPointsDirection();
 
-	void RefreshMarkerPositions();
+	void CreateMarkers();
 
-	void RefreshMarkerPosition(FWaypoint waypoint);
+	void CreateMarker(FWaypoint waypoint);
 
-	void setWaypoints(TArray<FWaypoint>* waypoints);
+	void SetMarkerPosition(FWaypoint waypoint, UCanvasPanelSlot* marker);
 
-private:
-
-	UCanvasPanelSlot* m_pointsAsCanvasSlot = nullptr;
-
-	TArray<FWaypoint>* m_waypoints;
+	void SetMarkerColor(FWaypoint waypoint, UCanvasPanelSlot* marker);
 };

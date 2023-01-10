@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UCompass_HUD;
 #ifdef MYPROJECT_Navigation_HUD_generated_h
 #error "Navigation_HUD.generated.h already included, missing '#pragma once' in Navigation_HUD.h"
 #endif
@@ -22,16 +21,8 @@ class UCompass_HUD;
 template<> MYPROJECT_API UScriptStruct* StaticStruct<struct FWaypoint>();
 
 #define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_SPARSE_DATA
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execsetCompassWidget);
-
-
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execsetCompassWidget);
-
-
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS_NO_PURE_DECLS
 #define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNavigation_HUD(); \
