@@ -53,7 +53,5 @@ public:
 	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
 
 private:
-	void initWidgets();
-
 	void setWidgetWaypoints();
 };

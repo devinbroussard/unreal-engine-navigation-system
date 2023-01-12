@@ -7,7 +7,8 @@
 #include "Math/Vector.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Math/Rotator.h"
-#include "Blueprint/WidgetTree.h"
+#include "Math/Vector2D.h"
+#include "Components/PanelWidget.h"
 
 void UCompass_HUD::NativeOnInitialized()
 {
@@ -58,7 +59,9 @@ void UCompass_HUD::CreateMarker(FWaypoint waypoint)
 	SetMarkerPosition(waypoint, newMarker);
 	SetMarkerColor(waypoint, newMarker);
 
-
+	newMarker->Parent = Cast<UPanelWidget>(this);
+	newMarker->SetSize({ 10000, 10000 });
+	newMarker->SetPosition({ 0, 0 });
 }
 
 void UCompass_HUD::SetMarkerPosition(FWaypoint waypoint, UCanvasPanelSlot* marker)

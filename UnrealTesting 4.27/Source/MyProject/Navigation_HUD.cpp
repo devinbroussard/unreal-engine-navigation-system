@@ -13,14 +13,15 @@ void UNavigation_HUD::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 	setWidgetWaypoints();
 }
 
-void UNavigation_HUD::initWidgets()
-{
-}
-
 void UNavigation_HUD::setWidgetWaypoints()
 {
 	if (isCompassEnabled)
 	{
+		if (!g_CompassWidget->g_FollowCamera)
+		{
+			g_CompassWidget->g_FollowCamera = g_FollowCamera;
+		}
+
 		g_CompassWidget->g_Waypoints = g_Waypoints;
 	}
 }
