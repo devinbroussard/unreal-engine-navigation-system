@@ -21,7 +21,5 @@ void UNavigation_HUD::setWidgetWaypoints()
 		{
 			g_CompassWidget->g_FollowCamera = g_FollowCamera;
 		}
-
-		g_CompassWidget->g_Waypoints = g_Waypoints;
 	}
 }

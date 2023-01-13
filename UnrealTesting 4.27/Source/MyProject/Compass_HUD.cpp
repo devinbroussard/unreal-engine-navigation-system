@@ -30,7 +30,11 @@ void UCompass_HUD::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 	}
 
 	SetPointsDirection();
-	CreateMarkers();
+
+	for (int i = 0; i < g_WaypointMarkers.Num(); i++)
+	{
+		SetMarkerPosition(g_WaypointMarkers[i]);
+	}
 }
 
 void UCompass_HUD::SetPointsDirection()
@@ -44,30 +48,10 @@ void UCompass_HUD::SetPointsDirection()
 	}
 }
 
-void UCompass_HUD::CreateMarkers()
-{
-	for(int i = 0; i < g_Waypoints.Num(); i++)
-	{
-		CreateMarker(g_Waypoints[i]);
-	}
-}
-
-void UCompass_HUD::CreateMarker(FWaypoint waypoint)
-{
-	UCanvasPanelSlot* newMarker = DuplicateObject(g_OriginalMarker, this);
-
-	SetMarkerPosition(waypoint, newMarker);
-	SetMarkerColor(waypoint, newMarker);
-
-	newMarker->Parent = Cast<UPanelWidget>(this);
-	newMarker->SetSize({ 10000, 10000 });
-	newMarker->SetPosition({ 0, 0 });
-}
-
-void UCompass_HUD::SetMarkerPosition(FWaypoint waypoint, UCanvasPanelSlot* marker)
+void UCompass_HUD::SetMarkerPosition(FWaypointMarker &waypointMarker)
 {
 	FVector cameraPosition = g_FollowCamera->GetComponentTransform().GetLocation();
-	FVector waypointPosition = waypoint.Transform.GetLocation();
+	FVector waypointPosition = waypointMarker.Waypoint.Transform.GetLocation();
 	FVector cameraToWaypointRotation =
 		UKismetMathLibrary::FindLookAtRotation(waypointPosition, cameraPosition).Vector().GetSafeNormal();
 
@@ -78,8 +62,5 @@ void UCompass_HUD::SetMarkerPosition(FWaypoint waypoint, UCanvasPanelSlot* marke
 	float y = FVector::DotProduct(cameraForwardVector, cameraToWaypointRotation);
 
 	float markerXPosition = (x / y) * 700;
-	marker->SetPosition({ markerXPosition, marker->GetPosition().Y });
+	waypointMarker.CanvasSlot->SetPosition({ markerXPosition, waypointMarker.CanvasSlot->GetPosition().Y });
 }
-
-void UCompass_HUD::SetMarkerColor(FWaypoint waypoint, UCanvasPanelSlot* marker)
-{}

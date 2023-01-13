@@ -11,6 +11,19 @@ class UImage;
 class UCanvasPanelSlot;
 class UCameraComponent;
 
+USTRUCT(BlueprintType)
+struct FWaypointMarker
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FWaypoint Waypoint;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UCanvasPanelSlot* CanvasSlot;
+};
+
 /**
  * Compass blueprint.
  */
@@ -24,10 +37,7 @@ public:
 	UCanvasPanelSlot* g_OriginalMarker;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FWaypoint> g_Waypoints;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<UImage*> g_AssignedMarkers = TArray<UImage*>();
+	TArray<FWaypointMarker> g_WaypointMarkers = TArray<FWaypointMarker>();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UImage* g_Needle = nullptr;
@@ -44,11 +54,5 @@ public:
 
 	void SetPointsDirection();
 
-	void CreateMarkers();
-
-	void CreateMarker(FWaypoint waypoint);
-
-	void SetMarkerPosition(FWaypoint waypoint, UCanvasPanelSlot* marker);
-
-	void SetMarkerColor(FWaypoint waypoint, UCanvasPanelSlot* marker);
+	void SetMarkerPosition(FWaypointMarker &waypointMarker);
 };
