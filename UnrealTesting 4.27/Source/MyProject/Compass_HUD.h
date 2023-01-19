@@ -55,4 +55,7 @@ public:
 	void SetPointsDirection();
 
 	void SetMarkerPosition(FWaypointMarker &waypointMarker);
+
+private:
+	bool CheckIfMarkerBehind(FVector cameraToWaypointVector, FVector cameraForwardVector);
 };

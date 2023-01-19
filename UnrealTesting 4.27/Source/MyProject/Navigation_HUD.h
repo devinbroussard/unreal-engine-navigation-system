@@ -17,7 +17,7 @@ struct FWaypoint
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FTransform Transform;
+	AActor* OwningActor;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FColor MarkerColor;

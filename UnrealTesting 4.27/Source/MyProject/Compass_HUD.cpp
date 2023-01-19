@@ -48,19 +48,44 @@ void UCompass_HUD::SetPointsDirection()
 	}
 }
 
-void UCompass_HUD::SetMarkerPosition(FWaypointMarker &waypointMarker)
+void UCompass_HUD::SetMarkerPosition(FWaypointMarker& waypointMarker)
 {
 	FVector cameraPosition = g_FollowCamera->GetComponentTransform().GetLocation();
-	FVector waypointPosition = waypointMarker.Waypoint.Transform.GetLocation();
+	FVector waypointPosition = waypointMarker.Waypoint.OwningActor->GetTransform().GetLocation();
 	FVector cameraToWaypointRotation =
 		UKismetMathLibrary::FindLookAtRotation(waypointPosition, cameraPosition).Vector().GetSafeNormal();
-
-	FVector cameraRightVector = g_FollowCamera->GetComponentTransform().GetRotation().GetRightVector();
 	FVector cameraForwardVector = g_FollowCamera->GetComponentTransform().GetRotation().GetForwardVector();
 
-	float x = FVector::DotProduct(cameraRightVector, cameraToWaypointRotation);
-	float y = FVector::DotProduct(cameraForwardVector, cameraToWaypointRotation);
+	bool isMarkerVisible =
+		CheckIfMarkerBehind(cameraToWaypointRotation, cameraForwardVector);
 
-	float markerXPosition = (x / y) * 700;
-	waypointMarker.CanvasSlot->SetPosition({ markerXPosition, waypointMarker.CanvasSlot->GetPosition().Y });
+	if (isMarkerVisible)
+	{
+		FVector cameraRightVector = g_FollowCamera->GetComponentTransform().GetRotation().GetRightVector();
+
+
+		float x = FVector::DotProduct(cameraRightVector, cameraToWaypointRotation);
+		float y = FVector::DotProduct(cameraForwardVector, cameraToWaypointRotation);
+
+		float markerXPosition = (x / y) * 700;
+		waypointMarker.CanvasSlot->SetPosition({ markerXPosition, -62.0});
+	}
+	else
+	{
+		waypointMarker.CanvasSlot->SetPosition({ 0, -200.0 });
+	}
+}
+
+bool UCompass_HUD::CheckIfMarkerBehind(FVector cameraToWaypointVector, FVector cameraForwardVector)
+{
+
+	float dotProduct = 
+		FVector::DotProduct(
+			cameraToWaypointVector.GetSafeNormal(),
+			cameraForwardVector.GetSafeNormal()
+		);
+
+	float degreesToWaypoint = UKismetMathLibrary::DegAcos(dotProduct);
+
+	return degreesToWaypoint > 140;
 }

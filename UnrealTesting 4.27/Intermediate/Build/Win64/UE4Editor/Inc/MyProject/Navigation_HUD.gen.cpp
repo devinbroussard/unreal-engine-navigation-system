@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeNavigation_HUD() {}
 // Cross Module References
 	MYPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FWaypoint();
 	UPackage* Z_Construct_UPackage__Script_MyProject();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 	MYPROJECT_API UClass* Z_Construct_UClass_UNavigation_HUD_NoRegister();
 	MYPROJECT_API UClass* Z_Construct_UClass_UNavigation_HUD();
@@ -52,9 +52,9 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Transform_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OwningActor_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Transform;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwningActor;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MarkerColor_MetaData[];
 #endif
@@ -73,12 +73,12 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FWaypoint>();
 	}
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_Transform_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor_MetaData[] = {
 		{ "Category", "Waypoint" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_Transform = { "Transform", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWaypoint, Transform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_Transform_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_Transform_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor = { "OwningActor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWaypoint, OwningActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor_MetaData[] = {
 		{ "Category", "Waypoint" },
@@ -87,7 +87,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor = { "MarkerColor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWaypoint, MarkerColor), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FWaypoint_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_Transform,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FWaypoint_Statics::ReturnStructParams = {
@@ -118,7 +118,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FWaypoint_Hash() { return 1668294726U; }
+	uint32 Get_Z_Construct_UScriptStruct_FWaypoint_Hash() { return 1211136602U; }
 	void UNavigation_HUD::StaticRegisterNativesUNavigation_HUD()
 	{
 	}
