@@ -48,6 +48,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UCameraComponent* g_FollowCamera = nullptr;
 
+	UFUNCTION(BlueprintCallable)
+	void RemoveWaypoint(FWaypoint waypoint);
+
 	void NativeOnInitialized() override;
 
 	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;

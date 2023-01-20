@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FWaypoint;
 #ifdef MYPROJECT_Compass_HUD_generated_h
 #error "Compass_HUD.generated.h already included, missing '#pragma once' in Compass_HUD.h"
 #endif
@@ -21,8 +22,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> MYPROJECT_API UScriptStruct* StaticStruct<struct FWaypointMarker>();
 
 #define UnrealTesting_4_27_Source_MyProject_Compass_HUD_h_33_SPARSE_DATA
-#define UnrealTesting_4_27_Source_MyProject_Compass_HUD_h_33_RPC_WRAPPERS
-#define UnrealTesting_4_27_Source_MyProject_Compass_HUD_h_33_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealTesting_4_27_Source_MyProject_Compass_HUD_h_33_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRemoveWaypoint);
+
+
+#define UnrealTesting_4_27_Source_MyProject_Compass_HUD_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRemoveWaypoint);
+
+
 #define UnrealTesting_4_27_Source_MyProject_Compass_HUD_h_33_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCompass_HUD(); \

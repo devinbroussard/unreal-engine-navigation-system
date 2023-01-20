@@ -120,8 +120,53 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FWaypointMarker_Hash() { return 656613625U; }
+	DEFINE_FUNCTION(UCompass_HUD::execRemoveWaypoint)
+	{
+		P_GET_STRUCT(FWaypoint,Z_Param_waypoint);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->RemoveWaypoint(Z_Param_waypoint);
+		P_NATIVE_END;
+	}
 	void UCompass_HUD::StaticRegisterNativesUCompass_HUD()
 	{
+		UClass* Class = UCompass_HUD::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "RemoveWaypoint", &UCompass_HUD::execRemoveWaypoint },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics
+	{
+		struct Compass_HUD_eventRemoveWaypoint_Parms
+		{
+			FWaypoint waypoint;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_waypoint;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::NewProp_waypoint = { "waypoint", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Compass_HUD_eventRemoveWaypoint_Parms, waypoint), Z_Construct_UScriptStruct_FWaypoint, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::NewProp_waypoint,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Compass_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCompass_HUD, nullptr, "RemoveWaypoint", nullptr, nullptr, sizeof(Compass_HUD_eventRemoveWaypoint_Parms), Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UCompass_HUD_NoRegister()
 	{
@@ -130,6 +175,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 	struct Z_Construct_UClass_UCompass_HUD_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -161,6 +207,9 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 	UObject* (*const Z_Construct_UClass_UCompass_HUD_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UUserWidget,
 		(UObject* (*)())Z_Construct_UPackage__Script_MyProject,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UCompass_HUD_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UCompass_HUD_RemoveWaypoint, "RemoveWaypoint" }, // 2385450222
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::Class_MetaDataParams[] = {
@@ -228,11 +277,11 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UCompass_HUD_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::PropPointers),
 		0,
 		0x00B010A0u,
@@ -247,7 +296,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCompass_HUD, 1911614209);
+	IMPLEMENT_CLASS(UCompass_HUD, 726300036);
 	template<> MYPROJECT_API UClass* StaticClass<UCompass_HUD>()
 	{
 		return UCompass_HUD::StaticClass();

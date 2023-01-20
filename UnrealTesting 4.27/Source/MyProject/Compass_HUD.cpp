@@ -10,6 +10,19 @@
 #include "Math/Vector2D.h"
 #include "Components/PanelWidget.h"
 
+void UCompass_HUD::RemoveWaypoint(FWaypoint waypoint)
+{
+	for (int i = 0; i < g_WaypointMarkers.Num(); i++)
+	{
+		if (g_WaypointMarkers[i].Waypoint.OwningActor == waypoint.OwningActor)
+		{
+			g_WaypointMarkers[i].CanvasSlot->SetPosition({ 0, -200 });
+			g_WaypointMarkers.RemoveAt(i);
+			return;
+		}
+	}
+}
+
 void UCompass_HUD::NativeOnInitialized()
 {
 	UUserWidget::NativeOnInitialized();
