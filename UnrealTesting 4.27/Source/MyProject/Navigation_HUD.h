@@ -33,25 +33,19 @@ class MYPROJECT_API UNavigation_HUD : public UUserWidget
 	
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool isCompassEnabled = true;
+	bool IsCompassEnabled = true;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool areWaypointsEnabled = true;
+	UCameraComponent* FollowCamera = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool isMinimapEnabled = true;
+	TArray<FWaypoint> Waypoints = TArray<FWaypoint>();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCameraComponent* g_FollowCamera = nullptr;
+	UCompass_HUD* CompassWidget = nullptr;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FWaypoint> g_Waypoints = TArray<FWaypoint>();
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCompass_HUD* g_CompassWidget = nullptr;
-
-	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
+	void NativeTick(const FGeometry& myGeometry, float inDeltaTime) override;
 
 private:
-	void setWidgetWaypoints();
+	void SetWidgetWaypoints();
 };

@@ -6,20 +6,20 @@
 #include "Compass_HUD.h"
 #include "Math/TransformNonVectorized.h"
 
-void UNavigation_HUD::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
+void UNavigation_HUD::NativeTick(const FGeometry& myGeometry, float inDeltaTime)
 {
-	UUserWidget::NativeTick(MyGeometry, InDeltaTime);
+	UUserWidget::NativeTick(myGeometry, inDeltaTime);
 
-	setWidgetWaypoints();
+	SetWidgetWaypoints();
 }
 
-void UNavigation_HUD::setWidgetWaypoints()
+void UNavigation_HUD::SetWidgetWaypoints()
 {
-	if (isCompassEnabled)
+	if (IsCompassEnabled)
 	{
-		if (!g_CompassWidget->g_FollowCamera)
+		if (!CompassWidget->FollowCamera)
 		{
-			g_CompassWidget->g_FollowCamera = g_FollowCamera;
+			CompassWidget->FollowCamera = FollowCamera;
 		}
 	}
 }

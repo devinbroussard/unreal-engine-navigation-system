@@ -20,7 +20,6 @@ void EmptyLinkFunctionForGeneratedCodeCompass_HUD() {}
 	MYPROJECT_API UClass* Z_Construct_UClass_UCompass_HUD_NoRegister();
 	MYPROJECT_API UClass* Z_Construct_UClass_UCompass_HUD();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
-	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 class UScriptStruct* FWaypointMarker::StaticStruct()
@@ -180,26 +179,22 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_OriginalMarker_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OriginalMarker_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_OriginalMarker;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_g_WaypointMarkers_Inner;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OriginalMarker;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_WaypointMarkers_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_WaypointMarkers_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WaypointMarkers_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_g_WaypointMarkers;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_WaypointMarkers;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_Needle_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Points_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_Needle;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Points;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_Points_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_Points;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_FollowCamera_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_FollowCamera;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -222,52 +217,43 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_OriginalMarker_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_OriginalMarker_MetaData[] = {
 		{ "Category", "Compass_HUD" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Compass_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_OriginalMarker = { "g_OriginalMarker", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_OriginalMarker), Z_Construct_UClass_UCanvasPanelSlot_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_OriginalMarker_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_OriginalMarker_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers_Inner = { "g_WaypointMarkers", nullptr, (EPropertyFlags)0x0000008000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FWaypointMarker, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_OriginalMarker = { "OriginalMarker", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, OriginalMarker), Z_Construct_UClass_UCanvasPanelSlot_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_OriginalMarker_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_OriginalMarker_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers_Inner = { "WaypointMarkers", nullptr, (EPropertyFlags)0x0000008000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FWaypointMarker, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers_MetaData[] = {
 		{ "Category", "Compass_HUD" },
 		{ "ModuleRelativePath", "Compass_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers = { "g_WaypointMarkers", nullptr, (EPropertyFlags)0x0010008000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_WaypointMarkers), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers = { "WaypointMarkers", nullptr, (EPropertyFlags)0x0010008000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, WaypointMarkers), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Needle_MetaData[] = {
-		{ "Category", "Compass_HUD" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Compass_HUD.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Needle = { "g_Needle", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_Needle), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Needle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Needle_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "Compass_HUD" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Compass_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points = { "g_Points", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_Points), Z_Construct_UClass_UCanvasPanelSlot_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, Points), Z_Construct_UClass_UCanvasPanelSlot_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_Points_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_FollowCamera_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCompass_HUD_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "Category", "Compass_HUD" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Compass_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_FollowCamera = { "g_FollowCamera", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, g_FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_FollowCamera_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCompass_HUD_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCompass_HUD, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCompass_HUD_Statics::NewProp_FollowCamera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCompass_HUD_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_OriginalMarker,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_WaypointMarkers,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Needle,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_Points,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_g_FollowCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_OriginalMarker,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_WaypointMarkers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_Points,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCompass_HUD_Statics::NewProp_FollowCamera,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCompass_HUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCompass_HUD>::IsAbstract,
@@ -296,7 +282,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypointMarker
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCompass_HUD, 726300036);
+	IMPLEMENT_CLASS(UCompass_HUD, 3586703187);
 	template<> MYPROJECT_API UClass* StaticClass<UCompass_HUD>()
 	{
 		return UCompass_HUD::StaticClass();

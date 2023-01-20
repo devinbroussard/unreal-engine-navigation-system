@@ -1,0 +1,1362 @@
+﻿Log file open, 01/20/23 12:45:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.341010
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 960
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.01.20-18.45.19:436][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.01.20-18.45.19:436][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.01.20-18.45.19:436][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:436][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.01.20-18.45.19:436][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:437][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.01.20-18.45.19:437][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.01.20-18.45.19:438][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.01.20-18.45.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:460][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:460][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.20-18.45.19:460][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.20-18.45.19:460][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:460][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.01.20-18.45.19:461][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.20-18.45.19:462][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.20-18.45.19:463][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.20-18.45.19:464][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.01.20-18.45.19:465][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.20-18.45.19:466][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.20-18.45.19:467][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.01.20-18.45.19:467][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:467][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.01.20-18.45.19:467][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.01.20-18.45.19:467][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:467][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.01.20-18.45.19:467][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.01.20-18.45.19:467][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.01.20-18.45.19:467][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.20-18.45.19:467][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.01.20-18.45.19:467][  0]LogHAL: Display: Platform has ~ 32 GB [34177232896 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.01.20-18.45.19:467][  0]LogInit: Going up to parent DeviceProfile []
+[2023.01.20-18.45.19:467][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.20-18.45.19:468][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.20-18.45.19:469][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.20-18.45.19:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.20-18.45.19:471][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.01.20-18.45.19:472][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.01.20-18.45.19:473][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.01.20-18.45.19:474][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Scalability.ini]
+[2023.01.20-18.45.19:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.01.20-18.45.19:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.01.20-18.45.19:474][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.01.20-18.45.19:474][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.01.20-18.45.19:474][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.01.20-18.45.19:475][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.01.20-18.45.19:475][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.01.20-18.45.19:475][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Engine.ini]
+[2023.01.20-18.45.19:475][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Config/Windows/Editor.ini]
+[2023.01.20-18.45.19:475][  0]LogInit: Computer: LAF-7D7451
+[2023.01.20-18.45.19:475][  0]LogInit: User: s218014
+[2023.01.20-18.45.19:475][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.01.20-18.45.19:475][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.01.20-18.45.19:475][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2023.01.20-18.45.19:475][  0]LogMemory: Platform Memory Stats for Windows
+[2023.01.20-18.45.19:475][  0]LogMemory: Process Physical Memory: 146.23 MB used, 146.23 MB peak
+[2023.01.20-18.45.19:475][  0]LogMemory: Process Virtual Memory: 126.59 MB used, 126.59 MB peak
+[2023.01.20-18.45.19:475][  0]LogMemory: Physical Memory: 11085.64 MB used,  21508.30 MB free, 32593.95 MB total
+[2023.01.20-18.45.19:475][  0]LogMemory: Virtual Memory: 134193656.00 MB used,  24074.28 MB free, 134217728.00 MB total
+[2023.01.20-18.45.19:485][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.01.20-18.45.19:616][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.01.20-18.45.19:619][  0]LogInit: Using OS detected language (en-US).
+[2023.01.20-18.45.19:619][  0]LogInit: Using OS detected locale (en-US).
+[2023.01.20-18.45.19:626][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.01.20-18.45.19:852][  0]LogInit: Setting process to per monitor DPI aware
+[2023.01.20-18.45.19:879][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.01.20-18.45.19:904][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.01.20-18.45.19:904][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.01.20-18.45.20:057][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2023.01.20-18.45.20:062][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.20-18.45.20:062][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.01.20-18.45.20:062][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.01.20-18.45.20:062][  0]LogD3D11RHI: D3D11 adapters:
+[2023.01.20-18.45.20:183][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2023.01.20-18.45.20:183][  0]LogD3D11RHI:       2007/0/16296 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.01.20-18.45.20:187][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:       0/0/16296 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 960
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     DeviceId    : 1401
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     SubSysId    : 1138196e
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     DedicatedVideoMemory : 2105212928 bytes
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     SharedSystemMemory : 17088616448 bytes
+[2023.01.20-18.45.20:188][  0]LogD3D11RHI:     AdapterLuid : 0 39639
+[2023.01.20-18.45.20:194][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.01.20-18.45.20:194][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2023.01.20-18.45.20:194][  0]LogWindows: EnumDisplayDevices:
+[2023.01.20-18.45.20:194][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2023.01.20-18.45.20:194][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2023.01.20-18.45.20:195][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2023.01.20-18.45.20:195][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2023.01.20-18.45.20:195][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.01.20-18.45.20:195][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:   Driver Version: 496.76 (internal:30.0.14.9676, unified:496.76)
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:      Driver Date: 11-9-2021
+[2023.01.20-18.45.20:196][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 960
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     DeviceId    : 1401
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     SubSysId    : 1138196e
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     DedicatedVideoMemory : 2105212928 bytes
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     SharedSystemMemory : 17088616448 bytes
+[2023.01.20-18.45.20:196][  0]LogD3D11RHI:     AdapterLuid : 0 39639
+[2023.01.20-18.45.20:266][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.01.20-18.45.20:266][  0]LogD3D11RHI: Async texture creation enabled
+[2023.01.20-18.45.20:266][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.01.20-18.45.20:287][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.01.20-18.45.20:335][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.01.20-18.45.20:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.01.20-18.45.20:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.01.20-18.45.20:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.01.20-18.45.20:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.01.20-18.45.20:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.01.20-18.45.20:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.01.20-18.45.20:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.01.20-18.45.20:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.01.20-18.45.20:730][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.01.20-18.45.20:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.01.20-18.45.20:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.01.20-18.45.20:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.01.20-18.45.20:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.01.20-18.45.20:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.01.20-18.45.20:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.01.20-18.45.20:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.01.20-18.45.20:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.01.20-18.45.20:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.01.20-18.45.20:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.01.20-18.45.20:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.01.20-18.45.20:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.01.20-18.45.20:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.01.20-18.45.20:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.01.20-18.45.20:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.01.20-18.45.20:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.01.20-18.45.20:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.01.20-18.45.20:933][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.01.20-18.45.20:962][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.01.20-18.45.21:048][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.01.20-18.45.21:147][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.01.20-18.45.21:148][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Intermediate/Shaders/WorkingDirectory/9740/).
+[2023.01.20-18.45.21:148][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s218014/AppData/Local/Temp/UnrealShaderWorkingDir/36F9ABD54701DCB08350C281DC27B9B1/'.
+[2023.01.20-18.45.21:148][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.01.20-18.45.21:148][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.01.20-18.45.21:149][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.01.20-18.45.22:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.01.20-18.45.22:274][  0]LogDerivedDataCache: Loaded boot cache 0.08s 103MB C:/Users/s218014/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.01.20-18.45.22:274][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s218014/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.01.20-18.45.22:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.01.20-18.45.22:274][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.01.20-18.45.22:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.20-18.45.22:274][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.01.20-18.45.22:299][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.01.20-18.45.22:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.20-18.45.22:299][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.01.20-18.45.22:308][  0]LogDerivedDataCache: Speed tests for C:/Users/s218014/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.01.20-18.45.22:308][  0]LogDerivedDataCache: Display: Performance to C:/Users/s218014/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=290.76MBs, RandomWriteSpeed=173.59MBs. Assigned SpeedClass 'Local'
+[2023.01.20-18.45.22:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s218014/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.01.20-18.45.22:310][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.01.20-18.45.22:310][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.01.20-18.45.22:378][  0]LogSlate: Using FreeType 2.10.0
+[2023.01.20-18.45.22:379][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.20-18.45.22:422][  0]LogAssetRegistry: FAssetRegistry took 0.0077 seconds to start up
+[2023.01.20-18.45.22:756][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.20-18.45.22:756][  0]LogInit: Active device profile: [0000019A40A6D300][0000019A3E2C72C0 49] Windows
+[2023.01.20-18.45.22:756][  0]LogInit: Profiles: [0000019A40A6D300][0000019A3E2C72C0 49] Windows, [0000019A409F7000][0000019A38177580 49] WindowsNoEditor, [0000019A40A6E400][0000019A38183840 49] WindowsServer, [0000019A409F7F00][0000019A406D3B00 49] WindowsClient, [0000019A40A6F300][0000019A406D6240 49] IOS, [0000019A409F5200][0000019A406DA500 49] iPadAir, [0000019A40A6FE00][0000019A3818A7C0 49] iPadAir2, [0000019A4169A100][0000019A32E18CC0 49] IPadPro, [0000019A4169A200][0000019A38192D00 49] iPadAir3, [0000019A409F5B00][0000019A3E2CAF80 49] iPadAir4, [0000019A4169B100][0000019A32E11240 49] iPadMini2, [0000019A409F7300][0000019A41AAB500 49] iPadMini3, [0000019A4169BE00][0000019A41AAF7C0 49] iPadMini4, [0000019A409F6400][0000019A41ADFA80 49] iPadMini5, [0000019A416ADA00][0000019A40544440 49] iPhone6, [0000019A416ADB00][0000019A41AE2480 49] iPodTouch6, [0000019A40A6EE00][0000019A405569C0 49] iPhone7, [0000019A40A6F100][0000019A40532A00 49] iPodTouch7, [0000019A41699C00][0000019A40540CC0 49] iPhone5S, [0000019A40A6D200][0000019A32E14F40 49] iPhone6Plus, [0000019A41699800][0000019A3DF951C0 49] iPhone6S, [0000019A40A6C400][0000019A40595480 49] iPhone6SPlus, [0000019A41698E00][0000019A40599740 49] iPhone7Plus, [0000019A40A6F000][0000019A405B7A00 49] iPhoneSE, [0000019A41698A00][0000019A405BA140 49] iPhone8, [0000019A40A6C800][0000019A4062C400 49] iPhone8Plus, [0000019A40A6DD00][0000019A406306C0 49] iPhoneX, [0000019A416AC800][0000019A37C04980 49] iPhoneXS, [0000019A40A6ED00][0000019A41AB2C40 49] iPhoneXSMax, [0000019A416ACF00][0000019A3E072F00 49] iPhoneXR, [0000019A40A6DA00][0000019A40553180 49] iPhone11, [0000019A416AD300][0000019A3E07B440 49] iPhone11Pro, [0000019A416AC400][0000019A3E07F700 49] iPhone11ProMax, [0000019A4169B200][0000019A3E0879C0 49] iPhoneSE2, [0000019A416AE300][0000019A37C88100 49] iPhone12Mini, [0000019A41699400][0000019A37C8C3C0 49] iPhone12, [0000019A416AED00][0000019A406A8680 49] iPhone12Pro, [0000019A4169B700][0000019A406AC940 49] iPhone12ProMax, [0000019A416AEE00][0000019A406B0C00 49] iPadPro105, [0000019A4169A400][0000019A406B4EC0 49] iPadPro129, [0000019A416AEF00][0000019A3E077140 49] iPadPro97, [0000019A4169B800][0000019A406C73C0 49] iPadPro2_129, [0000019A40A6D600][0000019A406CF680 49] iPad5, [0000019A41699B00][0000019A417BF940 49] iPad6, [0000019A40A6F700][0000019A417C3C00 49] iPad7, [0000019A41698100][0000019A417C6340 49] iPad8, [0000019A40A6DE00][0000019A41E96600 49] iPadPro11, [0000019A4169AF00][0000019A41E9A8C0 49] iPadPro2_11, [0000019A40A6FA00][0000019A41EB2B80 49] iPadPro3_129, [0000019A4169AB00][0000019A41EF2E40 49] iPadPro4_129, [0000019A40A6E900][0000019A41EFB100 49] AppleTV, [0000019A41698200][0000019A406CB380 49] AppleTV4K, [0000019A40A6E500][0000019A417F3600 49] TVOS, [0000019A41699900][0000019A418398C0 49] Mac, [0000019A40A6CE00][0000019A4183DB80 49] MacClient, [0000019A41698800][0000019A418442C0 49] MacNoEditor, [0000019A40A6D800][0000019A41848580 49] MacServer, [0000019A41699E00][0000019A4184C840 49] Linux, [0000019A40A6D000][0000019A41850B00 49] LinuxAArch64, [0000019A41698300][0000019A41854DC0 49] LinuxNoEditor, [0000019A40A6C600][0000019A41859080 49] LinuxAArch64NoEditor, [0000019A4169BF00][0000019A417F7340 49] LinuxClient, [0000019A40A6C100][0000019A418355C0 49] LinuxAArch64Client, [0000019A41698600][0000019A4185D840 49] LinuxServer, [0000019A40A6D500][0000019A3E06DB00 49] LinuxAArch64Server, [0000019A4169AD00][0000019A3E08A240 49] Android, [0000019A40A6CD00][0000019A32E42500 49] Android_Low, [0000019A41699600][0000019A41EF67C0 49] Android_Mid, [0000019A40A6F400][0000019A41840A80 49] Android_High, [0000019A41698B00][0000019A417FAD40 49] Android_Default, [0000019A40A6DF00][0000019A417FF000 49] Android_Adreno4xx, [0000019A41699500][0000019A418032C0 49] Android_Adreno5xx_Low, [0000019A40A6F500][0000019A41807580 49] Android_Adreno5xx, [0000019A41698700][0000019A3E069800 49] Android_Adreno6xx, [0000019A40A6DC00][0000019A4180BA80 49] Android_Adreno6xx_Vulkan, [0000019A4169A800][0000019A418121C0 49] Android_Mali_T6xx, [0000019A40A6E300][0000019A41816480 49] Android_Mali_T7xx, [0000019A41699700][0000019A4181A740 49] Android_Mali_T8xx, [0000019A40A6E800][0000019A4181EA00 49] Android_Mali_G71, [0000019A4169B400][0000019A41822CC0 49] Android_Mali_G72, [0000019A40A6C700][0000019A41826F80 49] Android_Mali_G72_Vulkan, [0000019A4169A700][0000019A4182B240 49] Android_Mali_G76, [0000019A416AF900][0000019A4182F500 49] Android_Mali_G76_Vulkan, [0000019A409F4900][0000019A37C397C0 49] Android_Mali_G77, [0000019A416AF200][0000019A4180FA40 49] Android_Mali_G77_Vulkan, [0000019A409F4D00][0000019A37C3C140 49] Android_Mali_G78, [0000019A416ACC00][0000019A37C44400 49] Android_Mali_G78_Vulkan, [0000019A409F4B00][0000019A37C486C0 49] Android_Mali_G710, [0000019A416AC500][0000019A37C4C980 49] Android_Mali_G710_Vulkan, [0000019A409F5D00][0000019A37C50C40 49] Android_Vulkan_SM5, [0000019A416AC200][0000019A37C54F00 49] Android_PowerVR_G6xxx, [0000019A409F7B00][0000019A37C591C0 49] Android_PowerVR_GT7xxx, [0000019A416AF700][0000019A37C5D480 49] Android_PowerVR_GE8xxx, [0000019A409F4200][0000019A37C61740 49] Android_PowerVR_GM9xxx, [0000019A416AE200][0000019A37C65A00 49] Android_PowerVR_GM9xxx_Vulkan, [0000019A409F6900][0000019A37C40100 49] Android_TegraK1, [0000019A416ACE00][0000019A37C68380 49] Android_Unknown_Vulkan, [0000019A409F5600][0000019A37C70640 49] Lumin, [0000019A416AD100][0000019A329CC900 49] Lumin_Desktop, [0000019A409F6C00][0000019A329D0BC0 49] HoloLens, 
+[2023.01.20-18.45.22:978][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.01.20-18.45.22:978][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.01.20-18.45.22:979][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.01.20-18.45.22:979][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.01.20-18.45.22:979][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.01.20-18.45.23:007][  0]LogNetVersion: MyProject 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 3629800737)
+[2023.01.20-18.45.23:439][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.01.20-18.45.23:503][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2023.01.20-18.45.23:509][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2023.01.20-18.45.23:509][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2023.01.20-18.45.23:509][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.01.20-18.45.24:215][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 59769FD447389FF029FC3492113190AD | Instance: 93B7CE5A449B2EDDA3E7BEAA3FC8587F (LAF-7D7451-9740).
+[2023.01.20-18.45.24:504][  0]LogPython: Using Python 3.7.7
+[2023.01.20-18.45.25:137][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.01.20-18.45.25:152][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.01.20-18.45.25:389][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Points in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Points) already exists there.
+[2023.01.20-18.45.25:390][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.45.25:392][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Points in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Points) already exists there.
+[2023.01.20-18.45.25:392][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.45.25:393][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.45.25:393][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.45.25:394][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Points" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Points
+[2023.01.20-18.45.25:394][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] In use pin  Points  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.01.20-18.45.25:395][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_WaypointMarkers" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Get g_WaypointMarkers
+[2023.01.20-18.45.25:396][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  g_Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.45.25:396][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  g_OriginalMarker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.45.25:396][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  g_WaypointMarkers  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.45.25:400][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Set g_CompassWidget
+[2023.01.20-18.45.25:401][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.45.25:401][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.45.25:401][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.45.25:402][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.45.25:402][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  g_CompassWidget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.45.25:402][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  g_Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.45.25:403][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  g_CompassWidget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.45.25:403][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  g_CompassWidget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.45.25:403][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  g_Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.45.25:839][  0]SourceControl: Source control is disabled
+[2023.01.20-18.45.25:840][  0]SourceControl: Source control is disabled
+[2023.01.20-18.45.25:856][  0]SourceControl: Source control is disabled
+[2023.01.20-18.45.25:866][  0]SourceControl: Source control is disabled
+[2023.01.20-18.45.25:901][  0]SourceControl: Source control is disabled
+[2023.01.20-18.45.26:032][  0]LogUProjectInfo: Found projects:
+[2023.01.20-18.45.26:523][  0]LogOpenImageDenoise: OIDN starting up
+[2023.01.20-18.45.26:615][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.01.20-18.45.26:677][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.01.20-18.45.26:677][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.01.20-18.45.26:892][  0]LogCollectionManager: Loaded 0 collections in 0.002612 seconds
+[2023.01.20-18.45.26:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Collections/' took 0.00s
+[2023.01.20-18.45.26:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/Developers/s218014/Collections/' took 0.00s
+[2023.01.20-18.45.26:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/Collections/' took 0.00s
+[2023.01.20-18.45.26:947][  0]LogOcInput: OculusInput pre-init called
+[2023.01.20-18.45.27:249][  0]LogClass: Warning: ObjectProperty FWaypointMarker::CanvasSlot is not initialized properly. Module:MyProject File:Compass_HUD.h
+[2023.01.20-18.45.27:250][  0]LogClass: Warning: ObjectProperty FWaypoint::OwningActor is not initialized properly. Module:MyProject File:Navigation_HUD.h
+[2023.01.20-18.45.27:250][  0]LogClass: Display: StructProperty FWaypoint::MarkerColor is not initialized properly. Module:MyProject File:Navigation_HUD.h
+[2023.01.20-18.45.27:250][  0]LogClass: Display: 3 Uninitialized script struct members found including 2 object properties
+[2023.01.20-18.45.27:251][  0]LogAutomationTest: Warning: ObjectProperty FWaypointMarker::CanvasSlot is not initialized properly. Module:MyProject File:Compass_HUD.h
+[2023.01.20-18.45.27:251][  0]LogAutomationTest: Warning: ObjectProperty FWaypoint::OwningActor is not initialized properly. Module:MyProject File:Navigation_HUD.h
+[2023.01.20-18.45.27:251][  0]LogEngine: Initializing Engine...
+[2023.01.20-18.45.27:255][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2023.01.20-18.45.27:255][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.20-18.45.27:255][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.01.20-18.45.27:256][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.01.20-18.45.27:396][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.01.20-18.45.27:410][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.01.20-18.45.27:430][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.01.20-18.45.27:440][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.01.20-18.45.27:440][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.01.20-18.45.27:441][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.01.20-18.45.27:441][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.01.20-18.45.27:441][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-18.45.27:441][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-18.45.27:441][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-18.45.27:441][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-18.45.27:441][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-18.45.27:442][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.20-18.45.27:442][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-18.45.27:442][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-18.45.27:442][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-18.45.27:442][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-18.45.27:442][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-18.45.27:442][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.20-18.45.27:462][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.20-18.45.27:462][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.01.20-18.45.27:530][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2023.01.20-18.45.27:533][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-18.45.27:536][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-18.45.27:536][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-18.45.27:537][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.20-18.45.27:537][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.20-18.45.27:537][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.20-18.45.27:539][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.20-18.45.27:539][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.20-18.45.27:539][  0]LogInit: FAudioDevice initialized.
+[2023.01.20-18.45.27:539][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.01.20-18.45.27:539][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.01.20-18.45.27:621][  0]LogDerivedDataCache: Saved boot cache 0.08s 103MB C:/Users/s218014/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.01.20-18.45.27:621][  0]LogInit: Texture streaming: Enabled
+[2023.01.20-18.45.27:654][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2023.01.20-18.45.27:665][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.01.20-18.45.27:665][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={D34C544D-43B5-EC51-A8BE-D8A3D29876A9}
+[2023.01.20-18.45.27:665][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={15A234AA-4065-283E-5C67-81896273E470}
+[2023.01.20-18.45.27:665][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.01.20-18.45.27:668][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.01.20-18.45.27:703][  0]LogInit: Transaction tracking system initialized
+[2023.01.20-18.45.27:772][  0]BlueprintLog: New page: Editor Load
+[2023.01.20-18.45.27:948][  0]LocalizationService: Localization service is disabled
+[2023.01.20-18.45.28:015][  0]TimingProfiler: Initialize
+[2023.01.20-18.45.28:015][  0]TimingProfiler: OnSessionChanged
+[2023.01.20-18.45.28:015][  0]LoadingProfiler: Initialize
+[2023.01.20-18.45.28:015][  0]LoadingProfiler: OnSessionChanged
+[2023.01.20-18.45.28:016][  0]NetworkingProfiler: Initialize
+[2023.01.20-18.45.28:016][  0]NetworkingProfiler: OnSessionChanged
+[2023.01.20-18.45.28:016][  0]MemoryProfiler: Initialize
+[2023.01.20-18.45.28:016][  0]MemoryProfiler: OnSessionChanged
+[2023.01.20-18.45.28:267][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.01.20-18.45.28:267][  0]LogCook: Display: Mobile HDR setting 1
+[2023.01.20-18.45.28:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/' took 0.00s
+[2023.01.20-18.45.28:992][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.01.20-18.45.28:995][  0]SourceControl: Source control is disabled
+[2023.01.20-18.45.28:995][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.240
+[2023.01.20-18.45.28:995][  0]LightingResults: New page: Lighting Build
+[2023.01.20-18.45.28:997][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-18.45.28:997][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-18.45.28:997][  0]MapCheck: New page: Map Check
+[2023.01.20-18.45.28:997][  0]LightingResults: New page: Lighting Build
+[2023.01.20-18.45.29:012][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-18.45.29:017][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.01.20-18.45.29:052][  0]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\BP_NavigationComponent.uasset: [Compiler] Could not find a variable named "g_FollowCamera" in 'Navigation_HUD'.
+Make sure 'Navigation_HUD' has been compiled for  Set g_FollowCamera
+[2023.01.20-18.45.29:053][  0]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\BP_NavigationComponent.uasset: [Compiler] The property associated with  G Follow Camera  could not be found in '/Game/BP_NavigationComponent.BP_NavigationComponent_C'
+[2023.01.20-18.45.29:191][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2023.01.20-18.45.29:193][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.20-18.45.29:200][  0]LogMaterial: Display: Material /Game/EnemyMaterial.EnemyMaterial needed to have new flag set bUsedWithStaticLighting !
+[2023.01.20-18.45.29:213][  0]LogMaterial: Display: Missing cached shadermap for EnemyMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 6F5B3B47C9DADE67BA0A90CFB11DCB899187F195), compiling. 
+[2023.01.20-18.45.29:280][  0]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2023.01.20-18.45.29:280][  0]MapCheck: Warning: EnemyMaterial Material /Game/EnemyMaterial.EnemyMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2023.01.20-18.45.29:281][  0]LogMaterial: Display: Material /Game/GoalMaterial.GoalMaterial needed to have new flag set bUsedWithStaticLighting !
+[2023.01.20-18.45.29:282][  0]LogMaterial: Display: Missing cached shadermap for GoalMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 6AD8CF0C386697B2EC1BB1AC46C0E56DF074C4FA), compiling. 
+[2023.01.20-18.45.29:306][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 25
+[2023.01.20-18.45.29:306][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 19
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 16
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2023.01.20-18.45.29:307][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1
+[2023.01.20-18.45.29:308][  0]LogShaderCompilers: Display: Started 25 'Local' shader compile jobs with 'Low' priority
+[2023.01.20-18.45.29:308][  0]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2023.01.20-18.45.29:308][  0]MapCheck: Warning: GoalMaterial Material /Game/GoalMaterial.GoalMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2023.01.20-18.45.29:312][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.20-18.45.29:324][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.01.20-18.45.29:324][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.20-18.45.29:325][  0]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.189ms to complete.
+[2023.01.20-18.45.29:337][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.342
+[2023.01.20-18.45.29:343][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.588
+[2023.01.20-18.45.29:500][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-18.45.29:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-18.45.29:526][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-18.45.29:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-18.45.29:563][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0167 seconds. Added 3826 classes and 930 folders.
+[2023.01.20-18.45.29:566][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.01.20-18.45.29:569][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.01.20-18.45.29:569][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:569][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.20-18.45.29:569][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:569][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2023.01.20-18.45.29:569][  0]LogPakFile: OnPakFileMounted2Time == 0.000233
+[2023.01.20-18.45.29:570][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.01.20-18.45.29:571][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:571][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.01.20-18.45.29:571][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:571][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2023.01.20-18.45.29:571][  0]LogPakFile: OnPakFileMounted2Time == 0.000197
+[2023.01.20-18.45.29:572][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.01.20-18.45.29:572][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:572][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.01.20-18.45.29:572][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:572][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2023.01.20-18.45.29:572][  0]LogPakFile: OnPakFileMounted2Time == 0.000214
+[2023.01.20-18.45.29:573][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.20-18.45.29:574][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:574][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.20-18.45.29:574][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:574][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2023.01.20-18.45.29:574][  0]LogPakFile: OnPakFileMounted2Time == 0.000204
+[2023.01.20-18.45.29:575][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.01.20-18.45.29:575][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:575][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.01.20-18.45.29:575][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:575][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2023.01.20-18.45.29:575][  0]LogPakFile: OnPakFileMounted2Time == 0.000207
+[2023.01.20-18.45.29:576][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.01.20-18.45.29:576][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:577][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.01.20-18.45.29:577][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:577][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2023.01.20-18.45.29:577][  0]LogPakFile: OnPakFileMounted2Time == 0.000196
+[2023.01.20-18.45.29:578][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.01.20-18.45.29:578][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:578][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.01.20-18.45.29:578][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:578][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2023.01.20-18.45.29:578][  0]LogPakFile: OnPakFileMounted2Time == 0.000200
+[2023.01.20-18.45.29:579][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.01.20-18.45.29:579][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:579][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.01.20-18.45.29:580][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:580][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2023.01.20-18.45.29:580][  0]LogPakFile: OnPakFileMounted2Time == 0.000192
+[2023.01.20-18.45.29:581][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.01.20-18.45.29:581][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:581][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.01.20-18.45.29:581][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:581][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2023.01.20-18.45.29:581][  0]LogPakFile: OnPakFileMounted2Time == 0.000207
+[2023.01.20-18.45.29:583][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.01.20-18.45.29:583][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:583][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.01.20-18.45.29:583][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:583][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2023.01.20-18.45.29:583][  0]LogPakFile: OnPakFileMounted2Time == 0.000202
+[2023.01.20-18.45.29:584][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.01.20-18.45.29:584][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:584][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.01.20-18.45.29:584][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:585][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2023.01.20-18.45.29:585][  0]LogPakFile: OnPakFileMounted2Time == 0.000208
+[2023.01.20-18.45.29:586][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.01.20-18.45.29:586][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:586][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.01.20-18.45.29:586][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:586][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2023.01.20-18.45.29:586][  0]LogPakFile: OnPakFileMounted2Time == 0.000213
+[2023.01.20-18.45.29:587][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.20-18.45.29:587][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:587][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.20-18.45.29:588][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:588][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2023.01.20-18.45.29:588][  0]LogPakFile: OnPakFileMounted2Time == 0.000210
+[2023.01.20-18.45.29:589][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.01.20-18.45.29:589][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:589][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.01.20-18.45.29:589][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:589][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2023.01.20-18.45.29:589][  0]LogPakFile: OnPakFileMounted2Time == 0.000214
+[2023.01.20-18.45.29:590][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.01.20-18.45.29:590][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:590][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.01.20-18.45.29:591][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:591][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2023.01.20-18.45.29:591][  0]LogPakFile: OnPakFileMounted2Time == 0.000207
+[2023.01.20-18.45.29:592][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.01.20-18.45.29:592][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:592][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.20-18.45.29:592][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:592][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2023.01.20-18.45.29:592][  0]LogPakFile: OnPakFileMounted2Time == 0.000191
+[2023.01.20-18.45.29:593][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.01.20-18.45.29:593][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:593][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.01.20-18.45.29:593][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:594][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2023.01.20-18.45.29:594][  0]LogPakFile: OnPakFileMounted2Time == 0.000208
+[2023.01.20-18.45.29:595][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.01.20-18.45.29:595][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:595][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.01.20-18.45.29:595][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:595][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2023.01.20-18.45.29:595][  0]LogPakFile: OnPakFileMounted2Time == 0.000210
+[2023.01.20-18.45.29:596][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.20-18.45.29:596][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:596][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.20-18.45.29:596][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:597][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2023.01.20-18.45.29:597][  0]LogPakFile: OnPakFileMounted2Time == 0.000210
+[2023.01.20-18.45.29:598][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.20-18.45.29:598][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:598][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.20-18.45.29:598][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:598][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2023.01.20-18.45.29:598][  0]LogPakFile: OnPakFileMounted2Time == 0.000246
+[2023.01.20-18.45.29:599][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.01.20-18.45.29:599][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:599][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.20-18.45.29:599][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:599][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2023.01.20-18.45.29:600][  0]LogPakFile: OnPakFileMounted2Time == 0.000217
+[2023.01.20-18.45.29:601][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.01.20-18.45.29:601][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:601][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.01.20-18.45.29:601][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:601][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2023.01.20-18.45.29:601][  0]LogPakFile: OnPakFileMounted2Time == 0.000205
+[2023.01.20-18.45.29:602][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.01.20-18.45.29:602][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:602][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.01.20-18.45.29:602][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:602][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2023.01.20-18.45.29:603][  0]LogPakFile: OnPakFileMounted2Time == 0.000198
+[2023.01.20-18.45.29:604][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.01.20-18.45.29:604][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:604][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.01.20-18.45.29:604][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:604][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2023.01.20-18.45.29:604][  0]LogPakFile: OnPakFileMounted2Time == 0.000197
+[2023.01.20-18.45.29:605][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.20-18.45.29:605][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:605][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.20-18.45.29:605][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:606][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2023.01.20-18.45.29:606][  0]LogPakFile: OnPakFileMounted2Time == 0.000212
+[2023.01.20-18.45.29:607][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.01.20-18.45.29:607][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.20-18.45.29:607][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.01.20-18.45.29:607][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.20-18.45.29:607][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2023.01.20-18.45.29:607][  0]LogPakFile: OnPakFileMounted2Time == 0.000210
+[2023.01.20-18.45.29:692][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.01.20-18.45.29:694][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2023.01.20-18.45.29:745][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.20-18.45.29:747][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.01.20-18.45.29:749][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.01.20-18.45.29:927][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2023.01.20-18.45.30:020][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.20-18.45.30:781][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.01.20-18.45.30:781][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2023.01.20-18.45.30:781][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2023.01.20-18.45.30:781][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2023.01.20-18.45.30:781][  0]LogLoad: (Engine Initialization) Total time: 13.03 seconds
+[2023.01.20-18.45.30:781][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.01.20-18.45.30:846][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.01.20-18.45.30:930][  1]LogAssetRegistry: Asset discovery search completed in 8.5123 seconds
+[2023.01.20-18.45.30:941][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2023.01.20-18.45.31:403][ 29]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2023.01.20-18.45.31:404][ 29]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.01.20-18.45.31:424][ 31]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2023.01.20-18.45.31:424][ 31]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.01.20-18.45.31:512][ 36]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2023.01.20-18.45.31:512][ 36]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.01.20-18.45.31:776][ 51]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.01.20-18.45.31:776][ 51]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.01.20-18.45.31:842][ 58]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 21
+[2023.01.20-18.45.31:842][ 58]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2023.01.20-18.45.31:842][ 58]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.31:991][ 72]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2023.01.20-18.45.31:991][ 72]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.32:067][ 79]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2023.01.20-18.45.32:067][ 79]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.32:344][101]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2023.01.20-18.45.32:344][101]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.32:393][103]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2023.01.20-18.45.32:393][103]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.32:403][104]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2023.01.20-18.45.32:403][104]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.32:832][134]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2023.01.20-18.45.32:832][134]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.33:351][168]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2023.01.20-18.45.33:351][168]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.01.20-18.45.33:351][168]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.33:382][170]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2023.01.20-18.45.33:382][170]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.33:645][192]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.01.20-18.45.33:645][192]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.33:788][205]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.01.20-18.45.33:797][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-18.45.33:798][205]BlueprintLog: Warning: Blueprint failed to compile:  BP_NavigationComponent
+[2023.01.20-18.45.33:798][205]BlueprintLog: Warning: Blueprint failed to compile:  Compass_HUD
+[2023.01.20-18.45.33:798][205]BlueprintLog: Warning: Blueprint failed to compile:  Navigation_HUD
+[2023.01.20-18.45.33:799][205]LogCustomDialog: Dialog displayed:
+[2023.01.20-18.45.33:846][205]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.01.20-18.45.33:846][205]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.01.20-18.45.37:463][205]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.01.20-18.45.37:536][205]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.01.20-18.45.39:050][386]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.20-18.45.39:068][386]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_NavigationComponent.BP_NavigationComponent
+[2023.01.20-18.45.39:282][386]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2023.01.20-18.45.40:277][386]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.20-18.45.40:313][387]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.20-18.46.33:042][102]BlueprintLog: New page: Compile BP_NavigationComponent
+[2023.01.20-18.46.33:079][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.01.20-18.46.34:241][222]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/BP_NavigationComponent9BBDF49A48C7F756DB41F88E65DFF99C.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/BP_NavigationComponent.uasset'
+[2023.01.20-18.46.34:254][222]AssetCheck: New page: Asset Save: BP_NavigationComponent
+[2023.01.20-18.46.34:254][222]LogContentValidation: Display: Validating Blueprint /Game/BP_NavigationComponent.BP_NavigationComponent
+[2023.01.20-18.46.35:947][393]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.01.20-18.46.35:952][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-18.46.35:953][393]BlueprintLog: Warning: Blueprint failed to compile:  Compass_HUD
+[2023.01.20-18.46.35:953][393]BlueprintLog: Warning: Blueprint failed to compile:  Navigation_HUD
+[2023.01.20-18.46.35:953][393]LogCustomDialog: Dialog displayed:
+[2023.01.20-18.46.37:181][393]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.46.40:022][393]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.01.20-18.46.58:302][254]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.46.58:306][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Points in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Points) already exists there.
+[2023.01.20-18.46.58:306][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.46.58:308][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Points in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Points) already exists there.
+[2023.01.20-18.46.58:308][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.46.58:308][254]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.46.58:309][254]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.46.58:309][254]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Points" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Points
+[2023.01.20-18.46.58:309][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] In use pin  Points  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.01.20-18.46.58:310][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.46.58:311][254]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.46.58:372][254]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2023.01.20-18.47.41:730][ 64]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.47.41:731][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Points in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Points) already exists there.
+[2023.01.20-18.47.41:731][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.47.41:732][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Points in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Points) already exists there.
+[2023.01.20-18.47.41:733][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.47.41:733][ 64]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.47.41:734][ 64]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.47.41:734][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] In use pin  Points  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.01.20-18.47.41:735][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.47.41:736][ 64]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.47.41:773][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2023.01.20-18.48.02:088][340]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.06:916][808]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.07:317][840]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUDBB24DA4D4E6AA95999782D9225309DEE.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.48.07:334][840]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.48.07:334][840]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.48.08:591][962]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.48.08:592][962]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.08:593][962]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.08:594][962]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.48.08:594][962]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.48.08:595][962]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] In use pin  Points Image  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.01.20-18.48.08:596][962]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.08:596][962]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.08:642][962]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2023.01.20-18.48.09:129][  0]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD829EB63D425187775AD445A9D8DB646B.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.48.09:141][  0]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.48.09:142][  0]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.48.10:154][ 98]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.48.10:154][ 98]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.10:156][ 98]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.10:156][ 98]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.48.10:158][ 98]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.48.10:158][ 98]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] In use pin  Points Image  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.01.20-18.48.10:159][ 98]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.10:159][ 98]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.10:209][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2023.01.20-18.48.24:978][677]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.48.24:979][677]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.24:980][677]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.24:981][677]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.48.24:981][677]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.48.24:983][677]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.24:983][677]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.24:983][677]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  Points  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.25:016][677]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2023.01.20-18.48.40:231][409]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.48.40:232][409]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.40:233][409]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.40:234][409]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.48.40:234][409]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.48.40:235][409]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.40:235][409]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.40:236][409]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  Points  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.40:269][409]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2023.01.20-18.48.48:342][247]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.48.48:342][247]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.48:344][247]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.48:345][247]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.48.48:345][247]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.48.48:346][247]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.48:347][247]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.48:380][247]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2023.01.20-18.48.49:478][365]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD69B1C050402ED6AAAB50A3B50DFB1DB6.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.48.49:492][365]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.48.49:492][365]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.48.50:815][516]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.48.50:816][516]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.50:817][516]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.48.50:818][516]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_Needle
+[2023.01.20-18.48.50:818][516]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.48.50:820][516]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.50:820][516]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.48.50:869][516]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2023.01.20-18.49.17:963][516]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUDD1CDC094462FB581787F52BDA9EB7A61.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.49.17:974][516]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.49.17:974][516]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.49.18:697][599]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.49.18:698][599]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.18:699][599]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.18:700][599]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a variable named "g_OriginalMarker" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set g_OriginalMarker
+[2023.01.20-18.49.18:701][599]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  G Original Marker  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.49.18:750][599]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2023.01.20-18.49.19:628][691]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD13EF341B40677398711C5B9866D5D754.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.49.19:640][691]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.49.19:640][691]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.49.36:171][471]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.49.36:172][471]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.36:173][471]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.36:224][471]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2023.01.20-18.49.47:635][714]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.49.47:636][714]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.47:637][714]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.47:673][714]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.01.20-18.49.48:108][761]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.49.48:109][761]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.48:111][761]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.49.48:145][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2023.01.20-18.50.00:217][116]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.01.20-18.50.00:223][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-18.50.00:223][116]BlueprintLog: Warning: Blueprint failed to compile:  Compass_HUD
+[2023.01.20-18.50.00:223][116]BlueprintLog: Warning: Blueprint failed to compile:  Navigation_HUD
+[2023.01.20-18.50.00:223][116]LogCustomDialog: Dialog displayed:
+[2023.01.20-18.50.03:463][116]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.01.20-18.50.10:505][919]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.10:505][919]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.10:507][919]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.10:542][919]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2023.01.20-18.50.11:016][973]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.11:016][973]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:018][973]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:052][973]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2023.01.20-18.50.11:237][993]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.11:238][993]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:239][993]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:274][993]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2023.01.20-18.50.11:608][ 31]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.11:609][ 31]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:610][ 31]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:645][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2023.01.20-18.50.11:806][ 48]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.11:807][ 48]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:808][ 48]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:843][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2023.01.20-18.50.11:970][ 61]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.11:971][ 61]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.11:972][ 61]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.12:007][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2023.01.20-18.50.12:108][ 71]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.12:109][ 71]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.12:110][ 71]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.12:144][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2023.01.20-18.50.12:269][ 84]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.12:270][ 84]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.12:271][ 84]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.12:306][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.01.20-18.50.16:676][560]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUDFDD6515841839E566857D6BFA007BD6D.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.50.16:690][560]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.50.16:691][560]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.50.17:747][683]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.17:747][683]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.17:749][683]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.17:800][683]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2023.01.20-18.50.18:274][737]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.50.18:275][737]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope SKEL_Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.18:276][737]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Internal Compiler Error: Tried to create a property Needle in scope Compass_HUD_C, but another object (ObjectProperty /Script/MyProject.Compass_HUD:Needle) already exists there.
+[2023.01.20-18.50.18:310][737]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2023.01.20-18.50.21:606][106]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.01.20-18.50.21:612][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-18.50.21:612][106]BlueprintLog: Warning: Blueprint failed to compile:  Compass_HUD
+[2023.01.20-18.50.21:612][106]BlueprintLog: Warning: Blueprint failed to compile:  Navigation_HUD
+[2023.01.20-18.50.21:613][106]LogCustomDialog: Dialog displayed:
+[2023.01.20-18.50.23:344][106]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/Navigation_HUD.Navigation_HUD
+[2023.01.20-18.50.25:481][106]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.01.20-18.50.29:285][552]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-18.50.29:289][552]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-18.50.40:293][728]BlueprintLog: New page: Compile BP_NavigationComponent
+[2023.01.20-18.50.40:346][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2023.01.20-18.50.40:802][775]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/BP_NavigationComponent1A7CDFE64743591FDC570B9B6D0C5A16.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/BP_NavigationComponent.uasset'
+[2023.01.20-18.50.40:815][775]AssetCheck: New page: Asset Save: BP_NavigationComponent
+[2023.01.20-18.50.40:815][775]LogContentValidation: Display: Validating Blueprint /Game/BP_NavigationComponent.BP_NavigationComponent
+[2023.01.20-18.50.41:676][869]LogSlate: Window 'BP_NavigationComponent' being destroyed
+[2023.01.20-18.50.41:681][869]LogSlate: Window 'BP_NavigationComponent' being destroyed
+[2023.01.20-18.50.41:684][869]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-18.50.41:684][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-18.50.57:224][641]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Navigation_HUD288ABEF34A2D120C2E08CCA5A8962D6D.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Navigation_HUD.uasset'
+[2023.01.20-18.50.57:237][641]AssetCheck: New page: Asset Save: Navigation_HUD
+[2023.01.20-18.50.57:237][641]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Navigation_HUD.Navigation_HUD
+[2023.01.20-18.50.58:323][762]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Navigation_HUDEDD4A8994CC177D64ED80FA94645026A.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Navigation_HUD.uasset'
+[2023.01.20-18.50.58:336][762]AssetCheck: New page: Asset Save: Navigation_HUD
+[2023.01.20-18.50.58:336][762]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Navigation_HUD.Navigation_HUD
+[2023.01.20-18.50.59:042][844]BlueprintLog: New page: Compile Navigation_HUD
+[2023.01.20-18.50.59:045][844]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.50.59:045][844]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.50.59:045][844]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.50.59:046][844]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.50.59:046][844]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.50.59:046][844]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.50.59:047][844]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.50.59:047][844]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.50.59:101][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2023.01.20-18.51.08:560][959]BlueprintLog: New page: Compile Navigation_HUD
+[2023.01.20-18.51.08:563][959]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.51.08:563][959]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.51.08:563][959]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.51.08:564][959]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.51.08:564][959]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.08:564][959]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.08:565][959]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.08:565][959]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.08:600][959]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2023.01.20-18.51.09:121][ 19]BlueprintLog: New page: Compile Navigation_HUD
+[2023.01.20-18.51.09:123][ 19]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.51.09:124][ 19]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.51.09:124][ 19]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.51.09:124][ 19]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.51.09:125][ 19]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.09:125][ 19]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.09:125][ 19]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.09:126][ 19]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.09:159][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2023.01.20-18.51.24:623][794]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Navigation_HUD380F40324649C6C3C9F8969818EF0BA1.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Navigation_HUD.uasset'
+[2023.01.20-18.51.24:637][794]AssetCheck: New page: Asset Save: Navigation_HUD
+[2023.01.20-18.51.24:637][794]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Navigation_HUD.Navigation_HUD
+[2023.01.20-18.51.40:389][566]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Navigation_HUD31E83D3645E5BDFDBD19F2B2CE8D284C.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Navigation_HUD.uasset'
+[2023.01.20-18.51.40:404][566]AssetCheck: New page: Asset Save: Navigation_HUD
+[2023.01.20-18.51.40:404][566]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Navigation_HUD.Navigation_HUD
+[2023.01.20-18.51.41:508][694]BlueprintLog: New page: Compile Navigation_HUD
+[2023.01.20-18.51.41:510][694]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_Waypoints" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_Waypoints
+[2023.01.20-18.51.41:511][694]LogBlueprint: Warning: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] Could not find a variable named "g_CompassWidget" in 'Navigation_HUD_C'.
+Make sure 'Navigation_HUD_C' has been compiled for  Get g_CompassWidget
+[2023.01.20-18.51.41:511][694]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Compass Widget  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.41:512][694]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Navigation_HUD.uasset: [Compiler] The property associated with  G Waypoints  could not be found in '/Game/UI/HUD/Navigation_HUD.Navigation_HUD_C'
+[2023.01.20-18.51.41:562][694]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2023.01.20-18.52.01:332][903]BlueprintLog: New page: Compile Navigation_HUD
+[2023.01.20-18.52.01:370][903]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2023.01.20-18.52.02:305][  4]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Navigation_HUD31303C994B5F1EAE274E068FDC23F083.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Navigation_HUD.uasset'
+[2023.01.20-18.52.02:319][  4]AssetCheck: New page: Asset Save: Navigation_HUD
+[2023.01.20-18.52.02:319][  4]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Navigation_HUD.Navigation_HUD
+[2023.01.20-18.52.03:266][106]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.01.20-18.52.03:270][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-18.52.03:270][106]BlueprintLog: Warning: Blueprint failed to compile:  Compass_HUD
+[2023.01.20-18.52.03:271][106]LogCustomDialog: Dialog displayed:
+[2023.01.20-18.52.06:052][106]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.01.20-18.52.28:040][734]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-18.52.28:044][734]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-18.52.41:208][265]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUDB5E176FA4474860615D7EA9EAC38F830.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.52.41:223][265]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.52.41:223][265]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.52.42:207][375]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.52.42:210][375]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.52.42:210][375]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.52.42:264][375]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2023.01.20-18.52.43:257][479]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD541CCA5B4643E80B73E32D83795D4040.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.52.43:271][479]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.52.43:271][479]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.52.59:272][295]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.52.59:275][295]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] The property associated with  Needle  could not be found in '/Game/UI/HUD/Compass_HUD.Compass_HUD_C'
+[2023.01.20-18.52.59:325][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2023.01.20-18.53.51:189][674]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD0E0003A540432E6BE2D44EBBD9EA91AF.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.53.51:201][674]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.53.51:202][674]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.53.52:105][770]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.53.52:107][770]LogBlueprint: Error: [AssetLog] C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Content\UI\HUD\Compass_HUD.uasset: [Compiler] Could not find a function named "Set Needle" in 'Compass_HUD_C'.
+Make sure 'Compass_HUD_C' has been compiled for  Set Needle
+[2023.01.20-18.53.52:159][770]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2023.01.20-18.53.52:805][840]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD2D183338442B0A7C0C28FEB5B7F34099.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.53.52:818][840]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.53.52:818][840]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.54.00:612][747]BlueprintLog: New page: Compile Compass_HUD
+[2023.01.20-18.54.00:665][747]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2023.01.20-18.54.01:338][822]LogSavePackage: Moving '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Saved/Compass_HUD872236624696CE18C3CE31A6905CBEF7.tmp' to '../../../../../../Users/s218014/Desktop/Dev/unreal-engine-navigation-ui-plugin/UnrealTesting 4.27/Content/UI/HUD/Compass_HUD.uasset'
+[2023.01.20-18.54.01:353][822]AssetCheck: New page: Asset Save: Compass_HUD
+[2023.01.20-18.54.01:354][822]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/HUD/Compass_HUD.Compass_HUD
+[2023.01.20-18.54.02:695][973]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.01.20-18.54.02:700][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-18.54.02:701][973]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 20, 2023, 6:54:02 AM)
+[2023.01.20-18.54.02:703][973]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.01.20-18.54.02:706][973]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.01.20-18.54.02:706][973]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.20-18.54.02:720][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013753s)
+[2023.01.20-18.54.02:721][973]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.20-18.54.02:722][973]LogPlayLevel: PIE: World Init took: (0.001604s)
+[2023.01.20-18.54.02:722][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015776s)
+[2023.01.20-18.54.02:764][973]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2023.01.20-18.54.02:764][973]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.01.20-18.54.02:764][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-18.54.02:764][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-18.54.02:765][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-18.54.02:765][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-18.54.02:765][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-18.54.02:765][973]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.20-18.54.02:765][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-18.54.02:765][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-18.54.02:766][973]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-18.54.02:766][973]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-18.54.02:766][973]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-18.54.02:766][973]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.20-18.54.02:769][973]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.20-18.54.02:769][973]LogAudioMixer: Display: 1: FrontRight
+[2023.01.20-18.54.02:793][973]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2023.01.20-18.54.02:793][973]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-18.54.02:793][973]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-18.54.02:793][973]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-18.54.02:794][973]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.20-18.54.02:794][973]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.20-18.54.02:794][973]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.20-18.54.02:796][973]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.20-18.54.02:796][973]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.20-18.54.02:796][973]LogInit: FAudioDevice initialized.
+[2023.01.20-18.54.02:796][973]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2023.01.20-18.54.02:824][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-18.54.02:824][973]LogLoad: Game class is 'MyProjectGameMode'
+[2023.01.20-18.54.02:826][973]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.20-12.54.02
+[2023.01.20-18.54.02:827][973]LogWorld: Bringing up level for play took: 0.002025
+[2023.01.20-18.54.02:827][973]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2023.01.20-18.54.02:836][973]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.01.20-18.54.02:837][973]LogTemp: Error: You haven't given the COMPASS HUD a reference to the character's camera!
+[2023.01.20-18.54.02:838][973]PIE: Server logged in
+[2023.01.20-18.54.02:838][973]PIE: Play in editor total start time 0.139 seconds.
+[2023.01.20-18.54.02:923][974]LogRenderer: Reallocating scene render targets to support 1912x1008 Format 10 NumSamples 1 (Frame:1).
+[2023.01.20-18.54.04:975][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-18.54.04:975][145]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.20-18.54.04:976][145]LogSlate: Window 'MyProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.01.20-18.54.04:989][145]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-18.54.04:989][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-18.54.05:005][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-18.54.05:012][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-18.54.05:043][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.20-18.54.05:045][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.20-18.54.05:080][145]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2023.01.20-18.54.05:094][146]LogPlayLevel: Display: Destroying online subsystem :Context_7

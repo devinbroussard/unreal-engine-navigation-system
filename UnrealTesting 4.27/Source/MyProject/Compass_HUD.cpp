@@ -12,12 +12,12 @@
 
 void UCompass_HUD::RemoveWaypoint(FWaypoint waypoint)
 {
-	for (int i = 0; i < g_WaypointMarkers.Num(); i++)
+	for (int i = 0; i < WaypointMarkers.Num(); i++)
 	{
-		if (g_WaypointMarkers[i].Waypoint.OwningActor == waypoint.OwningActor)
+		if (WaypointMarkers[i].Waypoint.OwningActor == waypoint.OwningActor)
 		{
-			g_WaypointMarkers[i].CanvasSlot->SetPosition({ 0, -200 });
-			g_WaypointMarkers.RemoveAt(i);
+			WaypointMarkers[i].CanvasSlot->SetPosition({ 0, -200 });
+			WaypointMarkers.RemoveAt(i);
 			return;
 		}
 	}
@@ -27,54 +27,54 @@ void UCompass_HUD::NativeOnInitialized()
 {
 	UUserWidget::NativeOnInitialized();
 
-	if (!g_Points)
+	if (!Points)
 	{
 		UE_LOG(LogTemp, Error, TEXT("You haven't given the COMPASS HUD a reference to the character's camera!"));
 	}
 }
 
-void UCompass_HUD::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
+void UCompass_HUD::NativeTick(const FGeometry& myGeometry, float inDeltaTime)
 {
-	UUserWidget::NativeTick(MyGeometry, InDeltaTime);
+	UUserWidget::NativeTick(myGeometry, inDeltaTime);
 
-	if (!g_FollowCamera || !g_Needle || !g_Points)
+	if (!FollowCamera || !Points)
 	{
 		return;
 	}
 
 	SetPointsDirection();
 
-	for (int i = 0; i < g_WaypointMarkers.Num(); i++)
+	for (int i = 0; i < WaypointMarkers.Num(); i++)
 	{
-		SetMarkerPosition(g_WaypointMarkers[i]);
+		SetMarkerPosition(WaypointMarkers[i]);
 	}
 }
 
 void UCompass_HUD::SetPointsDirection()
 {
-	float followCameraZAxisRotation = g_FollowCamera->GetComponentTransform().GetRotation().Euler().Z;
+	float followCameraZAxisRotation = FollowCamera->GetComponentTransform().GetRotation().Euler().Z;
 	float canvasXAxisPosition = followCameraZAxisRotation * -10 - 2700;
 
-	if (g_Points)
+	if (Points)
 	{
-		g_Points->SetPosition({ canvasXAxisPosition, 0 });
+		Points->SetPosition({ canvasXAxisPosition, 0 });
 	}
 }
 
 void UCompass_HUD::SetMarkerPosition(FWaypointMarker& waypointMarker)
 {
-	FVector cameraPosition = g_FollowCamera->GetComponentTransform().GetLocation();
+	FVector cameraPosition = FollowCamera->GetComponentTransform().GetLocation();
 	FVector waypointPosition = waypointMarker.Waypoint.OwningActor->GetTransform().GetLocation();
 	FVector cameraToWaypointRotation =
 		UKismetMathLibrary::FindLookAtRotation(waypointPosition, cameraPosition).Vector().GetSafeNormal();
-	FVector cameraForwardVector = g_FollowCamera->GetComponentTransform().GetRotation().GetForwardVector();
+	FVector cameraForwardVector = FollowCamera->GetComponentTransform().GetRotation().GetForwardVector();
 
 	bool isMarkerVisible =
 		CheckIfMarkerBehind(cameraToWaypointRotation, cameraForwardVector);
 
 	if (isMarkerVisible)
 	{
-		FVector cameraRightVector = g_FollowCamera->GetComponentTransform().GetRotation().GetRightVector();
+		FVector cameraRightVector = FollowCamera->GetComponentTransform().GetRotation().GetRightVector();
 
 
 		float x = FVector::DotProduct(cameraRightVector, cameraToWaypointRotation);

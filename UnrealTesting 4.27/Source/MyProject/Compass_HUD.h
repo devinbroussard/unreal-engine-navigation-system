@@ -34,26 +34,23 @@ class MYPROJECT_API UCompass_HUD : public UUserWidget
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCanvasPanelSlot* g_OriginalMarker;
+	UCanvasPanelSlot* OriginalMarker;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FWaypointMarker> g_WaypointMarkers = TArray<FWaypointMarker>();
+	TArray<FWaypointMarker> WaypointMarkers = TArray<FWaypointMarker>();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UImage* g_Needle = nullptr;
+	UCanvasPanelSlot* Points = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCanvasPanelSlot* g_Points = nullptr;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCameraComponent* g_FollowCamera = nullptr;
+	UCameraComponent* FollowCamera = nullptr;
 
 	UFUNCTION(BlueprintCallable)
 	void RemoveWaypoint(FWaypoint waypoint);
 
 	void NativeOnInitialized() override;
 
-	void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
+	void NativeTick(const FGeometry& myGeometry, float inDeltaTime) override;
 
 	void SetPointsDirection();
 

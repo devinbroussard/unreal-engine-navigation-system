@@ -133,33 +133,23 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isCompassEnabled_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsCompassEnabled_MetaData[];
 #endif
-		static void NewProp_isCompassEnabled_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isCompassEnabled;
+		static void NewProp_IsCompassEnabled_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsCompassEnabled;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_areWaypointsEnabled_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
-		static void NewProp_areWaypointsEnabled_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_areWaypointsEnabled;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Waypoints_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isMinimapEnabled_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Waypoints_MetaData[];
 #endif
-		static void NewProp_isMinimapEnabled_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isMinimapEnabled;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Waypoints;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_FollowCamera_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CompassWidget_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_FollowCamera;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_g_Waypoints_Inner;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_Waypoints_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_g_Waypoints;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_g_CompassWidget_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_g_CompassWidget;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CompassWidget;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -177,70 +167,46 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled_MetaData[] = {
 		{ "Category", "Navigation_HUD" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
 	};
 #endif
-	void Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled_SetBit(void* Obj)
+	void Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled_SetBit(void* Obj)
 	{
-		((UNavigation_HUD*)Obj)->isCompassEnabled = 1;
+		((UNavigation_HUD*)Obj)->IsCompassEnabled = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled = { "isCompassEnabled", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UNavigation_HUD), &Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled_SetBit, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled = { "IsCompassEnabled", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UNavigation_HUD), &Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled_SetBit, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled_MetaData[] = {
-		{ "Category", "Navigation_HUD" },
-		{ "ModuleRelativePath", "Navigation_HUD.h" },
-	};
-#endif
-	void Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled_SetBit(void* Obj)
-	{
-		((UNavigation_HUD*)Obj)->areWaypointsEnabled = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled = { "areWaypointsEnabled", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UNavigation_HUD), &Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled_SetBit, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled_MetaData[] = {
-		{ "Category", "Navigation_HUD" },
-		{ "ModuleRelativePath", "Navigation_HUD.h" },
-	};
-#endif
-	void Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled_SetBit(void* Obj)
-	{
-		((UNavigation_HUD*)Obj)->isMinimapEnabled = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled = { "isMinimapEnabled", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UNavigation_HUD), &Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled_SetBit, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_FollowCamera_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "Category", "Navigation_HUD" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_FollowCamera = { "g_FollowCamera", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, g_FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_FollowCamera_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_Inner = { "g_Waypoints", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FWaypoint, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_FollowCamera_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints_Inner = { "Waypoints", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FWaypoint, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints_MetaData[] = {
 		{ "Category", "Navigation_HUD" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints = { "g_Waypoints", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, g_Waypoints), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints = { "Waypoints", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, Waypoints), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_CompassWidget_MetaData[] = {
 		{ "Category", "Navigation_HUD" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget = { "g_CompassWidget", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, g_CompassWidget), Z_Construct_UClass_UCompass_HUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_CompassWidget = { "CompassWidget", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNavigation_HUD, CompassWidget), Z_Construct_UClass_UCompass_HUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_CompassWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_CompassWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UNavigation_HUD_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isCompassEnabled,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_areWaypointsEnabled,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_isMinimapEnabled,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_FollowCamera,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_Waypoints,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_g_CompassWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_IsCompassEnabled,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_FollowCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_Waypoints,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNavigation_HUD_Statics::NewProp_CompassWidget,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UNavigation_HUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UNavigation_HUD>::IsAbstract,
@@ -269,7 +235,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UNavigation_HUD, 1047798680);
+	IMPLEMENT_CLASS(UNavigation_HUD, 282350929);
 	template<> MYPROJECT_API UClass* StaticClass<UNavigation_HUD>()
 	{
 		return UNavigation_HUD::StaticClass();

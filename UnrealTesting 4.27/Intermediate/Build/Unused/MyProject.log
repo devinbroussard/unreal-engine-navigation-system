@@ -8,5 +8,5 @@
     [3/4] UE4Editor-MyProject.dll
        Creating library C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.lib and object C:\Users\s218014\Desktop\Dev\unreal-engine-navigation-ui-plugin\UnrealTesting 4.27\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject.suppressed.exp
     [4/4] MyProjectEditor.target
-  Total time in Parallel executor: 4.29 seconds
-  Total execution time: 4.97 seconds
+  Total time in Parallel executor: 3.99 seconds
+  Total execution time: 4.61 seconds
