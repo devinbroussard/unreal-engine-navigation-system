@@ -14,8 +14,10 @@ void UCompass_HUD::RemoveWaypoint(FWaypoint waypoint)
 {
 	for (int i = 0; i < WaypointMarkers.Num(); i++)
 	{
+		// If this waypoint's owner matches the given waypoint's owner...
 		if (WaypointMarkers[i].Waypoint.OwningActor == waypoint.OwningActor)
 		{
+			// Hide the waypoint and remove it from the WaypointMarker array.
 			WaypointMarkers[i].CanvasSlot->SetPosition({ 0, -200 });
 			WaypointMarkers.RemoveAt(i);
 			return;
@@ -27,6 +29,7 @@ void UCompass_HUD::NativeOnInitialized()
 {
 	UUserWidget::NativeOnInitialized();
 
+	// Throw an error message if the player doesn't initialize the compass correctly.
 	if (!Points)
 	{
 		UE_LOG(LogTemp, Error, TEXT("You haven't given the COMPASS HUD a reference to the character's camera!"));
@@ -37,11 +40,13 @@ void UCompass_HUD::NativeTick(const FGeometry& myGeometry, float inDeltaTime)
 {
 	UUserWidget::NativeTick(myGeometry, inDeltaTime);
 
+	// If the compass isn't initialized correctly, return.
 	if (!FollowCamera || !Points)
 	{
 		return;
 	}
 
+	// Sets the direction of the compass points relative to the player.
 	SetPointsDirection();
 
 	for (int i = 0; i < WaypointMarkers.Num(); i++)
@@ -69,6 +74,7 @@ void UCompass_HUD::SetMarkerPosition(FWaypointMarker& waypointMarker)
 		UKismetMathLibrary::FindLookAtRotation(waypointPosition, cameraPosition).Vector().GetSafeNormal();
 	FVector cameraForwardVector = FollowCamera->GetComponentTransform().GetRotation().GetForwardVector();
 
+	// Checks to see if the marker is behind the camera before doing calculations...
 	bool isMarkerVisible =
 		CheckIfMarkerBehind(cameraToWaypointRotation, cameraForwardVector);
 
@@ -77,21 +83,22 @@ void UCompass_HUD::SetMarkerPosition(FWaypointMarker& waypointMarker)
 		FVector cameraRightVector = FollowCamera->GetComponentTransform().GetRotation().GetRightVector();
 
 
-		float x = FVector::DotProduct(cameraRightVector, cameraToWaypointRotation);
-		float y = FVector::DotProduct(cameraForwardVector, cameraToWaypointRotation);
+		float rightDotProduct = FVector::DotProduct(cameraRightVector, cameraToWaypointRotation);
+		float forwardDotProduct = FVector::DotProduct(cameraForwardVector, cameraToWaypointRotation);
 
-		float markerXPosition = (x / y) * 700;
+		float markerXPosition = (rightDotProduct / forwardDotProduct) * 700;
 		waypointMarker.CanvasSlot->SetPosition({ markerXPosition, -62.0});
 	}
 	else
 	{
+		// Hides the waypoint if the marker isn't visible.
 		waypointMarker.CanvasSlot->SetPosition({ 0, -200.0 });
 	}
 }
 
 bool UCompass_HUD::CheckIfMarkerBehind(FVector cameraToWaypointVector, FVector cameraForwardVector)
 {
-
+	// Gets the rotation in degrees to the waypoint and returns whether or not it is less than 140 degrees.
 	float dotProduct = 
 		FVector::DotProduct(
 			cameraToWaypointVector.GetSafeNormal(),

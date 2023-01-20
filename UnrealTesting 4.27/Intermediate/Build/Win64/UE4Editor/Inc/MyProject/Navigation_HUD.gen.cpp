@@ -75,14 +75,18 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor_MetaData[] = {
 		{ "Category", "Waypoint" },
+		{ "Comment", "// The actor that has a waypoint component attached to them.\n" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
+		{ "ToolTip", "The actor that has a waypoint component attached to them." },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor = { "OwningActor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWaypoint, OwningActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_OwningActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor_MetaData[] = {
 		{ "Category", "Waypoint" },
+		{ "Comment", "// The given waypoint color.\n" },
 		{ "ModuleRelativePath", "Navigation_HUD.h" },
+		{ "ToolTip", "The given waypoint color." },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor = { "MarkerColor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FWaypoint, MarkerColor), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWaypoint_Statics::NewProp_MarkerColor_MetaData)) };
@@ -118,7 +122,7 @@ static struct FScriptStruct_MyProject_StaticRegisterNativesFWaypoint
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FWaypoint_Hash() { return 1211136602U; }
+	uint32 Get_Z_Construct_UScriptStruct_FWaypoint_Hash() { return 2528379624U; }
 	void UNavigation_HUD::StaticRegisterNativesUNavigation_HUD()
 	{
 	}

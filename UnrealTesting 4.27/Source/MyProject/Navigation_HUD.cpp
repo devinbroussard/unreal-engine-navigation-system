@@ -10,15 +10,16 @@ void UNavigation_HUD::NativeTick(const FGeometry& myGeometry, float inDeltaTime)
 {
 	UUserWidget::NativeTick(myGeometry, inDeltaTime);
 
-	SetWidgetWaypoints();
+	InitializeWidgets();
 }
 
-void UNavigation_HUD::SetWidgetWaypoints()
+void UNavigation_HUD::InitializeWidgets()
 {
 	if (IsCompassEnabled)
 	{
 		if (!CompassWidget->FollowCamera)
 		{
+			// If the compass component's follow camera hasn't been initialized, initialize it.
 			CompassWidget->FollowCamera = FollowCamera;
 		}
 	}

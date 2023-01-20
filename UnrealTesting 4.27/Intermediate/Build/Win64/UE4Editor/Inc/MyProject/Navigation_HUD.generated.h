@@ -20,10 +20,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> MYPROJECT_API UScriptStruct* StaticStruct<struct FWaypoint>();
 
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_SPARSE_DATA
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_INCLASS_NO_PURE_DECLS \
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_SPARSE_DATA
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_RPC_WRAPPERS
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNavigation_HUD(); \
 	friend struct Z_Construct_UClass_UNavigation_HUD_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(UNavigation_HUD)
 
 
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_INCLASS \
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_INCLASS \
 private: \
 	static void StaticRegisterNativesUNavigation_HUD(); \
 	friend struct Z_Construct_UClass_UNavigation_HUD_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(UNavigation_HUD)
 
 
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_STANDARD_CONSTRUCTORS \
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNavigation_HUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNavigation_HUD) \
@@ -54,7 +54,7 @@ private: \
 public:
 
 
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_ENHANCED_CONSTRUCTORS \
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNavigation_HUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -67,28 +67,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNavigation_HUD)
 
 
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_PRIVATE_PROPERTY_OFFSET
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_29_PROLOG
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_GENERATED_BODY_LEGACY \
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_PRIVATE_PROPERTY_OFFSET
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_31_PROLOG
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_PRIVATE_PROPERTY_OFFSET \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_SPARSE_DATA \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_INCLASS \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_STANDARD_CONSTRUCTORS \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_PRIVATE_PROPERTY_OFFSET \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_SPARSE_DATA \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_RPC_WRAPPERS \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_INCLASS \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_GENERATED_BODY \
+#define UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_PRIVATE_PROPERTY_OFFSET \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_SPARSE_DATA \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_INCLASS_NO_PURE_DECLS \
-	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_32_ENHANCED_CONSTRUCTORS \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_PRIVATE_PROPERTY_OFFSET \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_SPARSE_DATA \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_INCLASS_NO_PURE_DECLS \
+	UnrealTesting_4_27_Source_MyProject_Navigation_HUD_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

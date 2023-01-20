@@ -16,9 +16,11 @@ struct FWaypoint
 	GENERATED_BODY()
 
 public:
+	// The actor that has a waypoint component attached to them.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	AActor* OwningActor;
 
+	// The given waypoint color.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FColor MarkerColor;
 };
@@ -47,5 +49,7 @@ public:
 	void NativeTick(const FGeometry& myGeometry, float inDeltaTime) override;
 
 private:
-	void SetWidgetWaypoints();
+
+	// Sets the initial values on enabled widgets.
+	void InitializeWidgets();
 };

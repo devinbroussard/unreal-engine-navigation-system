@@ -45,6 +45,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UCameraComponent* FollowCamera = nullptr;
 
+	/// <summary>
+	/// Removes a waypoint marker from the WaypointMarkers array.
+	/// </summary>
 	UFUNCTION(BlueprintCallable)
 	void RemoveWaypoint(FWaypoint waypoint);
 
@@ -52,10 +55,23 @@ public:
 
 	void NativeTick(const FGeometry& myGeometry, float inDeltaTime) override;
 
+	/// <summary>
+	/// Sets the direction the player is looking at by moving the points image.
+	/// </summary>
 	void SetPointsDirection();
 
+	/// <summary>
+	/// Sets the position of the given waypoint marker.
+	/// </summary>
+	/// <param name="waypointMarker">The given waypoint marker.</param>
 	void SetMarkerPosition(FWaypointMarker &waypointMarker);
 
 private:
+	/// <summary>
+	/// Checks to see if the given marker is behind the camera.
+	/// </summary>
+	/// <param name="cameraToWaypointVector">The direction of the waypoint from the camera.</param>
+	/// <param name="cameraForwardVector">The camera's forward facing vector.</param>
+	/// <returns></returns>
 	bool CheckIfMarkerBehind(FVector cameraToWaypointVector, FVector cameraForwardVector);
 };
